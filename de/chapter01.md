@@ -65,3 +65,36 @@ Klassische Wissenschaftsvermittlung ist traditionell statisch, unidirektional un
 Eine detaillierte Erklärung der beiden Prototypen folgt in [Kapitel 4](chapter04.md).
 
 **Kommentar**: Sollten solche Formate häufiger ausgerollt werden, würde es Sinn machen diese Konzepte zu standardisieren und entsprechende Frameworks zur Verfügung zu stellen, sodass neue Themen einfach und nachhaltig erschlossen werden können.
+
+## 1.3 Projekterfolgskontrolle
+
+### 1.3.1 Forschungsfragen
+
+**Wie lassen sich Konzepte lebensweltlicher Taxonomien (z.B. Lebenslagen) mit Taxonomien wissenschaftlicher Wissensrepräsentation verbinden?**
+
+**Wie lassen sich die Fragen der Bürger\*innen von den Wissenschaftler\*innen praxisnah und forschungsrelevant auswerten?**
+
+Es ist mit einer extrem großen Zahl an Inhalten zu rechnen, die von den Redakteur*innen bearbeitet werden müssen. Mit dem Ziel Teile dieser Aufgaben zu unterstützen oder automatisieren zu können, wurden verschiedene verfahren des Maschinellen Lernens (ML) exploriert. Die erfolgreichsten Ergebnisse wurden im Bereich der Kategorisierung (Taxonomien) erzielt. Hierzu wurde ein kooperatives ML-System entwickelt, welches die Redakteur\*innen bei ihrer Arbeit unterstütz und gleichzeitig den Bürger\*innen erlaubt die Inhalte einfach zu durchsuchen. Siehe hierzu [Kapitel 3](chapter03.md).
+
+-----
+
+**Wie lässt sich eine solche Erhebung mit dem Schutz der Privatsphäre der teilnehmenden Personen vereinen?**
+
+Diese Dokumentation enthält [Empfehlungen](chapter02.md) zur Konzeption und Umsetzung von Umfragen mit Fokus auf Wahrung der Privatsphäre der Teilnehmer*innen. Für die Erhebung von abgeleiteten Attributen, wurde ein client-side classification Ansatz entwickelt. Die Empfehlungen und client-side classification wurden beispielhaft in einem [Survey Prototypen](chapter05.md) implementiert.
+
+-----
+
+**Wie kann die Relevanz wissenschaftlicher Inhalte für die Bürger\*innen erhöht werden?**
+
+**Welche Potentiale ergeben sich durch die Erhebung des räumlichen Kontextes in Hinblick auf die individuelle Relevanz der Inhalte?**
+
+In Fortführung der Personalisierungsmethoden wurden zwei exemplarische Wissenschaftskommunikations-Anwendungen entwickelt, welche den räumlichen Kontext der Leser\*innen nutzen, um das interaktive Storytelling zu personalisieren. Mehr hierzu in [Kapitel 4](chapter04.md).
+
+### 1.3.2 Arbeitspakete
+
+1. **Konzeption**: Die inhaltliche Konzeption ist in diese Dokumentation eingeflossen. Die technische Dokumentation befindet sich in [Kapitel 5](chapter05.md).
+2. **Anwendungsbasis**: Um die einzelnen Komponenten möglichst realistisch demonstrieren und testen zu können, wurde eine web-basierte Anwendung entwickelt, welche in rudimentären Zügen die spätere Beteiligungsanwendung abbildet (Fragen eingeben, Fragen & Teilnehmer administrieren, Fragen kategorisieren), siehe [Kapitel 5](chapter05.md).
+3. **Kontextualisierung**: Um die algorithmischen Verfahren zu automatischen Verarbeitung des Inputs der Bürger\*innen evaluieren zu können, wurden die Daten des belgischen Verfahrens als Basis genutzt. Die resultierenden Komponenten wurden modular als Microservices aufgesetzt, um eine spätere Nachnutzung möglichst einfach zu gestalten.
+4. **Data-driven Storytelling**: Es wurden zwei interaktive Anwendungen zur Vermittlung wissenschaftlicher Erkenntnisse entwickelt. Ein Prototyp zum Thema Klimawandel und Mobilität und ein Prototyp zum Thema Klimawandelrisiken in Deutschland. Die Anwendungen basieren auf Daten und Informationen des Umweltbundesamts.
+5. **Evaluation**: Die Evaluation hat sich in Zeiten von Corona sehr schwierig gestaltet. Besonders der Kontakt zu Expert\*innen innerhalb der Ministerien (was in diesen Zeiten durchaus verständlich ist). Wir haben die Konzepte und Prototypen deshalb mit Expert\*innen aus unserem Netzwerk evaluiert und das Feedback eingearbeitet.
+6. **Dokumentation**: Die Dokumentation wurde als Web- und PDF-Version umgesetzt. Alle entwickelten Software-Komponenten wurden alls quelloffener Source Code zur Verfügung gestellt. Für Links zu den individuellen Repositorien, siehe [Kapitel 5](chapter05.md).
