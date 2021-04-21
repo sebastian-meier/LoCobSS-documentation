@@ -48,3 +48,16 @@ Um diese Methode der **client-side classification** zu demonstrieren, haben wir 
 ### Implementierung
 
 Im Prototypen haben wir die Trennung von demographischen Daten und Nutzerdaten exemplarisch implementiert. Zusätzlich haben wir die oben beschriebene client-side classification implementiert. Beispielhaft wird hierzu die eingegebene Postleitzahl genutzt, um direkt im Browser die [RegioStar Gem5](https://www.bmvi.de/SharedDocs/DE/Artikel/G/regionalstatistische-raumtypologie.html) Klasse zu identifizieren (Metropole; Regiopole, Großstadt; Zentrale Stadt, Mittelstadt; Städtischer Raum; Kleinstädtischer / dörflicher Raum). Siehe hierzu [Prototypen-Dokumentation](chapter05.md).
+
+<figure>
+<img src="../assets/images/form.png" alt="" />
+<figcaption>Abb. 2: Prototyp: Formular zum Stellen einer Frage</figcaption>
+</figure>
+
+Weiterhin haben wir bei der Implementierung versucht sogenannte "Dark Design Patterns" zu vermeiden und "Ethical Design" Prinzipien zu verfolgen:
+
+1. Nur die Felder zu Pflichtfeldern machen, die wirklich notwendig sind. Pflichtfelder können Personen auch davon abschrecken den Ausfüllprozess abzuschließen.
+2. Möglichst barrierearme Anforderungen an die Eingaben stellen (z.B. mindest oder maximale Zeichenzahlen, Passwortvorgaben, etc.)
+3. Transparent erklären wozu welche Daten erhoben werden und was damit geschieht. Zum Beispiel transparent erklären, warum demographische Daten erhoben werden und wie diese verarbeitet werden.
+4. Opt-in und nicht Opt-out. Stattdessen sollten die Vorteile einer Registrierung deutlich gemacht werden und die Wahl der Nutzer\*in überlassen werden.
+5. Sicherheitsmaßnahmen und Privatsphäre müssen häufig abgewägt werden. Wenn wir Bürger\*innen erlauben wollen Fragen zu stellen, ohne z.B. vorher ihre Email-Adresse zu validieren, müssen wir andere Maßnahmen integrieren, um illegale Aktivitäten auf der Seite zu verhindern. Wir haben als Beispielhafte Lösung [reCaptcha](https://developers.google.com/recaptcha/docs/display) implementiert. Wir haben explizit Version 2 genutzt, da die Privatsphäre bei dieser Variante besser geschützt wird.
