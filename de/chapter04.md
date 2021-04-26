@@ -12,23 +12,23 @@ Klassische Wissenschaftskommunikation ist nach wie vor statisch, unidirektional 
 Die zunehmende Verfügbarkeit von Daten, barrierearme Werkzeuge zur Erstellung von Visualisierungen und Bemühungen von Akteur\*innen wie Datenjournalist\*innen, haben in den letzten Jahren dazu beigetragen, dass Visualisierungen von Daten und Informationen nicht mehr nur in der Fachliteratur zu finden sind, sondern Einzug in die Massenmedien gehalten haben. Besonders hervorzuheben für ihre herausragende datenjournalistische Arbeit auf diesem Gebiet sind z.B. folgende Plattformen:
 
 **Deutschland**
-- [Zeit-Online](https://www.zeit.de/datenjournalismus)
-- [Spiegel Online](https://www.spiegel.de/thema/daten/)
-- [Tagesspiegel](https://interaktiv.tagesspiegel.de/)
-- [Morgenpost](https://www.morgenpost.de/interaktiv/)
+- [Zeit-Online](https://www.zeit.de/datenjournalismus)<sup class="print"></sup>
+- [Spiegel Online](https://www.spiegel.de/thema/daten/)<sup class="print"></sup>
+- [Tagesspiegel](https://interaktiv.tagesspiegel.de/)<sup class="print"></sup>
+- [Morgenpost](https://www.morgenpost.de/interaktiv/)<sup class="print"></sup>
 
 **Europa**
-- [NZZ](https://www.nzz.ch/visuals)
-- [The Guardian](https://www.theguardian.com/interactive)
+- [NZZ](https://www.nzz.ch/visuals)<sup class="print"></sup>
+- [The Guardian](https://www.theguardian.com/interactive)<sup class="print"></sup>
 
 <div class="page-break"></div>
 
 **Weltweit**
-- [New York Times](https://www.nytimes.com/interactive/2020/12/30/us/2020-year-in-graphics.html)
-- [Washington Post](https://www.washingtonpost.com/graphics/2017/ns/year-in-graphics/)
-- [The Pudding](https://pudding.cool/)
-- [Financial Times](https://www.ft.com/visual-and-data-journalism)
-- [FiveThirtyEight](https://projects.fivethirtyeight.com/)
+- [New York Times](https://www.nytimes.com/interactive/2020/12/30/us/2020-year-in-graphics.html)<sup class="print"></sup>
+- [Washington Post](https://www.washingtonpost.com/graphics/2017/ns/year-in-graphics/)<sup class="print"></sup>
+- [The Pudding](https://pudding.cool/)<sup class="print"></sup>
+- [Financial Times](https://www.ft.com/visual-and-data-journalism)<sup class="print"></sup>
+- [FiveThirtyEight](https://projects.fivethirtyeight.com/)<sup class="print"></sup>
 
 <figure>
 <figcaption>New York Times: Verschiebungen bei den Wahlen 2020</figcaption>
@@ -39,10 +39,10 @@ Wie in der beispielhaften Abbildung aus der New York Times oben zu sehen, gehen 
 
 Weiterführende Lektüre zum Thema Datenjournalismus:
 
-- [Segel & Heer (2010) Narrative Visualization: Telling Stories with Data](http://idl.cs.washington.edu/papers/narrative/?s=03)
-- [Literaturübersicht im Bereich Datenvisualisierung](https://airtable.com/shrugbQMDGVNvArMT/tblSrU1fNAykSMyXU)
-- [Datajournalism Handbook](https://datajournalism.com)
-- [Anton Zhiyanov (2021) DataViz Guidelines](https://github.com/nalgeon/dataviz)
+- [Segel & Heer (2010) Narrative Visualization: Telling Stories with Data](http://idl.cs.washington.edu/papers/narrative/?s=03)<sup class="print"></sup>
+- [Literaturübersicht im Bereich Datenvisualisierung](https://airtable.com/shrugbQMDGVNvArMT/tblSrU1fNAykSMyXU)<sup class="print"></sup>
+- [Datajournalism Handbook](https://datajournalism.com)<sup class="print"></sup>
+- [Anton Zhiyanov (2021) DataViz Guidelines](https://github.com/nalgeon/dataviz)<sup class="print"></sup>
 
 
 ### Personalisierung und Relevanz
@@ -65,7 +65,7 @@ Bei mehrdimensionen Datenräumen kann eine Dimensionsreduktion genutzt werden, u
 <figcaption>Personalisierung: K-Nearest-Neighbour und K-Means-Clustering (blau Leser\*in)</figcaption>
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/personal_knn.png" alt="" /></center>
 </figure>
-
+<div class="page-break"></div>
 Genauso können die Attribute der Leser\*in auch als Filter genutzt werden, um den Datenraum herunterzubrechen und zu verkleinern.
 <figure>
 <figcaption>Personalisierung: Filteransatz</figcaption>
@@ -79,17 +79,20 @@ In den beiden Prototypen wurde dieses abstrakte Modell anschaulich umgesetzt:
 
 Weiterführende Literatur zur Personalisierung von Visualisierungen:
 
-- Meier, S., Glinka, K. (2018) Data-driven Personal Cartographic Perspectives – An Overview Of Applied, Artistic, And Academic Visualization Projects For Egocentric Retrospective Analysis Of Personal Spatio-Temporal Behavior Cartograms, Kartographische Nachrichten, (13/8).
-- Meier, S., Glinka, K. (2017) The Individual in the Data, the Aspect of Personal Relevance in Designing Casual Data Visualisations. i-com Journal of Interactive Media. Special issue: Human-Computer Interaction in Geovisualization. De Gruyter.16(3).
+- Meier, S., Glinka, K. (2018) Data-driven Personal Cartographic Perspectives – An Overview Of Applied, Artistic, And Academic Visualization Projects For Egocentric Retrospective Analysis Of Personal Spatio-Temporal Behavior Cartograms, Kartographische Nachrichten, (13/8).<sup class="print"></sup>
+
+<div class="page-break"></div>
+
+- Meier, S., Glinka, K. (2017) The Individual in the Data, the Aspect of Personal Relevance in Designing Casual Data Visualisations. i-com Journal of Interactive Media. Special issue: Human-Computer Interaction in Geovisualization. De Gruyter.16(3).<sup class="print"></sup>
 
 
 ### Umsetzung
 
-Bei der Umsetzung wurde die in [Kapitel 2](chapter02.md) beschriebene client-side classifiction genutzt, in Kombination mit vorberechneten statischen Datenextrakten. Hierdurch konnte eine privatsphären-konforme Implementation der folgenden Prototypen sichergestellt werden. Während der Interaktion mit den Visualisierungen werden keine Daten über die Nutzer\*innen gespeichert.
+Bei der Umsetzung wurde die in <a class="local" href="chapter02.html">Kapitel 2</a> beschriebene client-side classifiction genutzt, in Kombination mit vorberechneten statischen Datenextrakten. Hierdurch konnte eine privatsphären-konforme Implementation der folgenden Prototypen sichergestellt werden. Während der Interaktion mit den Visualisierungen werden keine Daten über die Nutzer\*innen gespeichert.
 
 Beide Prototypen nutzen das sogenannte Scrollytelling-Konzept. Die Benutzer\*innen müssen zur Interaktion einfach nur scrollen. Dadurch werden Animationen und Interaktionen ausgelöst. Diese niedrigschwellige Form der Interaktion ist sehr intuitiv und funktioniert sowohl auf Desktop als auch auf mobilen Endgeräten. Die Nutzer\*innen können durch das Scrolling, die Gewschwindigkeit der Erzählung selber beeinflussen und steuern.
 
-Für weitere technische Details der Umsetzung, siehe [Kapitel 5](chapter05.md).
+Für weitere technische Details der Umsetzung, siehe <a class="local" href="chapter05.html">Kapitel 5</a>.
 
 ### Prototyp I - Klimawandel und Mobilität
 
@@ -119,7 +122,7 @@ Dieser erste Abschnitt ist noch sehr allgemein gehalten. Als Einstieg in den per
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/mobilitaet/mobilitaet-4.png" alt="" /></center>
 </figure>
 
-Die personalisierte Erzählung beginnt dann mit einem Wechsel zur von der Nutzer\*in eingegebenen Postleitzahl. Dort wird durch einen Kreis die durchschnittliche tägliche Reisedistanz aufgezeigt, basierend auf dem gewählten Fortbewegungsmittel (basierend auf [Mobilität in Tabellen](https://mobilitaet-in-tabellen.dlr.de/), DLR).
+Die personalisierte Erzählung beginnt dann mit einem Wechsel zur von der Nutzer\*in eingegebenen Postleitzahl. Dort wird durch einen Kreis die durchschnittliche tägliche Reisedistanz aufgezeigt, basierend auf dem gewählten Fortbewegungsmittel (basierend auf [Mobilität in Tabellen](https://mobilitaet-in-tabellen.dlr.de/)<sup class="print"></sup>, DLR).
 
 <div class="page-break"></div>
 
@@ -195,7 +198,7 @@ Abhängig von der eingegebenen Postleitzahl werden weitere Risiken mit lokalem B
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/klima/klimawandel-8.png" alt="" /></center>
 </figure>
 
-Für die Visualisierung der lokalen Hochwassergefahren, wurden Daten der [Bundesanstalt für Gewässerkunde](https://geoportal.bafg.de/inspire/download/NZ/servicefeed.xml) genutzt. Hierzu werden den Leser\*innen verschiedene Szenarien (Wahrscheinlichkeiten) für Hochwasser aufgezeigt.
+Für die Visualisierung der lokalen Hochwassergefahren, wurden Daten der [Bundesanstalt für Gewässerkunde](https://geoportal.bafg.de/inspire/download/NZ/servicefeed.xml)<sup class="print"></sup> genutzt. Hierzu werden den Leser\*innen verschiedene Szenarien (Wahrscheinlichkeiten) für Hochwasser aufgezeigt.
 
 <figure>
 <figcaption>Protoyp Kliamwandel: Prognosen für Hochwasser</figcaption>

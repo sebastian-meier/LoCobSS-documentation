@@ -1,9 +1,31 @@
-/* - * - * - * - * - * - * - * - * - * - */
-/* 1.0 CSS to make A4 print preview as default web view */
-
 .print-hide{
 	display:none;
 }
+
+body {
+  counter-reset: ref-counter 0;
+}
+
+sup.print:not(.ignore){
+	counter-increment: ref-counter;
+}
+
+sup.print:not(.ignore)::before {
+  content: counter(ref-counter);
+}
+
+a.local{
+	text-decoration: none;
+	color:black;
+	pointer-events: none;
+}
+
+a {
+	color:black !important;
+}
+
+/* - * - * - * - * - * - * - * - * - * - */
+/* 1.0 CSS to make A4 print preview as default web view */
 
 @media screen {
 

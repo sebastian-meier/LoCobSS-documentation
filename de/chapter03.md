@@ -4,17 +4,17 @@
 
 ## Analyse der Fragen: Unterstützung der Redakteur\*innen
 
-Ein Großteil der Bemühungen rund um die Befragung der Bürger\*innen stellt die Erhebung und Partizipation in den Mittelpunkt. Währenddessen sollte nicht vergessen werden, dass auch die Mitarbeiter\*innen bei der Handhabung der eintreffenden Fragen unterstützt werden müssen. Wenn das Verfahren in [Belgien](https://www.vraagvoordewetenschap.be/) als Grundlage genommen wird, sollten in Deutschland um die 50.000 Inhalte durch die Bürger\*innen generiert werden. Diese Inhalte müssen überprüft, freigegeben und kategorisiert werden. Wenn jeder Frage nur eine Minute Aufmerksamkeit geschenkt wird, bedeutet dies über 100 Arbeitstage nur mit der reinen Administration der Inhalte.
+Ein Großteil der Bemühungen rund um die Befragung der Bürger\*innen stellt die Erhebung und Partizipation in den Mittelpunkt. Währenddessen sollte nicht vergessen werden, dass auch die Mitarbeiter\*innen bei der Handhabung der eintreffenden Fragen unterstützt werden müssen. Wenn das Verfahren in [Belgien](https://www.vraagvoordewetenschap.be/)<sup class="print ignore">7</sup> als Grundlage genommen wird, sollten in Deutschland um die 50.000 Inhalte durch die Bürger\*innen generiert werden. Diese Inhalte müssen überprüft, freigegeben und kategorisiert werden. Wenn jeder Frage nur eine Minute Aufmerksamkeit geschenkt wird, bedeutet dies über 100 Arbeitstage nur mit der reinen Administration der Inhalte.
 
 Gut kategorisierte und kuratierte Inhalte stellen auch gleichzeitig einen Mehrwert für die Nutzer\*innen der Plattform dar. Deshalb sehen wir einen doppelten Nutzen darin, die Redakteur\*innen bei ihrer Arbeit zu unterstützen. Bezüglich dieser Aufgaben haben die Organisator\*innen andere Beteiligungsverfahren und öffentlicher Plattformen uns zwei primäre Aufgaben genannt die unterstützt werden könnten: Identifizieren von unangebrachten Inhalten und das Kategorisieren von Inhalten. 
 
-Im Rahmen des Vorhabens LoCobSS haben wir uns speziell mit Methoden der automatisierten Verarbeitung von Inhalten beschäftigt. Im Folgenden präsentieren wir von uns prototypisch implementierte Dienste und deren Evaluation. Die technische Dokumenation befindet sich in [Kapitel 5](chapter05.md).
+Im Rahmen des Vorhabens LoCobSS haben wir uns speziell mit Methoden der automatisierten Verarbeitung von Inhalten beschäftigt. Im Folgenden präsentieren wir von uns prototypisch implementierte Dienste und deren Evaluation. Die technische Dokumenation befindet sich in <a class="local" href="chapter05.html">Kapitel 5</a>.
 
 ### Testdaten
 
-Um die folgenden Ansätze evaluieren zu können, wurden vergleichbare Testdaten benötigt. Zu diesem Zweck wurde ein Harvester entwickelt, welcher die Daten des [belgischen Beteiligungsverfahrens](https://www.vraagvoordewetenschap.be/) aggregierte und strukturiert für dieses Vorhaben aufbereitete.
+Um die folgenden Ansätze evaluieren zu können, wurden vergleichbare Testdaten benötigt. Zu diesem Zweck wurde ein Harvester entwickelt, welcher die Daten des [belgischen Beteiligungsverfahrens](https://www.vraagvoordewetenschap.be/)<sup class="print ignore">7</sup> aggregierte und strukturiert für dieses Vorhaben aufbereitete.
 
-Für weitere Details siehe [Repository](https://github.com/sebastian-meier/locobss-vraagvoordewetenschap-harvester) des Harvesters.
+Für weitere Details siehe [Repository](https://github.com/sebastian-meier/locobss-vraagvoordewetenschap-harvester)<sup class="print"></sup> des Harvesters.
 
 ### Hate Speech
 
@@ -24,8 +24,8 @@ Bevor Eingaben der Bürger\*innen über die Plattform veröffentlicht werden, so
 
 Um Ansätze für englische Sprache nutzen zu können, haben wir die Eingaben der Nutzer\*innen automatisiert ins englische übersetzt.
 
-- [**ProfanityFilter**](https://areebbeigh.github.io/profanityfilter/) (python)
-- [**HateSonar**](https://github.com/Hironsan/HateSonar) (python)
+- [**ProfanityFilter**](https://areebbeigh.github.io/profanityfilter/)<sup class="print"></sup> (python)
+- [**HateSonar**](https://github.com/Hironsan/HateSonar)<sup class="print"></sup> (python)
 
 #### 3.2.2 Verbesserung
 
@@ -41,19 +41,21 @@ Um die eingehenden Inhalte analysieren zu können und nachnutzbar zu machen, mü
 
 #### 3.3.1 Vektorisieren von Text
 
-Ein in der modernen Text-Analyse weit verbreitetes Verfahren, ist das Umwandeln von Texten in Vektoren. Das Verfahren basiert darauf, dass ein künstliches Neuronales Netzwerk auf einem großen Text-Korpus trainiert wird. Stark abstrahiert, lernt das Netzwerk dabei Strukturen und Ähnlichkeiten von Textbausteinen. Später kann das Netzwerk genutzt werden, um Textbausteinen einen mehrdimensionalen Vektor zuzuordnen. Über diese Vektoren können dann z.B. Vergleiche angestellt werden, um die Ähnlichkeit von Textbausteinen festzustellen. Hierbei gibt es verfahren die für einzelne Wörter (z.B. [word2vec](https://en.wikipedia.org/wiki/Word2vec)) optimiert sind und andere die ganze Texte analysieren können. Wir haben für diesen Schritt den von Google Forscher\*innen entwickelten [Universal Sentence Encoder](https://arxiv.org/abs/1803.11175) in [Version 4](https://tfhub.dev/google/universal-sentence-encoder/4) genutzt.
+Ein in der modernen Text-Analyse weit verbreitetes Verfahren, ist das Umwandeln von Texten in Vektoren. Das Verfahren basiert darauf, dass ein künstliches Neuronales Netzwerk auf einem großen Text-Korpus trainiert wird. Stark abstrahiert, lernt das Netzwerk dabei Strukturen und Ähnlichkeiten von Textbausteinen. Später kann das Netzwerk genutzt werden, um Textbausteinen einen mehrdimensionalen Vektor zuzuordnen. Über diese Vektoren können dann z.B. Vergleiche angestellt werden, um die Ähnlichkeit von Textbausteinen festzustellen. Hierbei gibt es verfahren die für einzelne Wörter (z.B. [word2vec](https://en.wikipedia.org/wiki/Word2vec)<sup class="print"></sup>) optimiert sind und andere die ganze Texte analysieren können. Wir haben für diesen Schritt den von Google Forscher\*innen entwickelten [Universal Sentence Encoder](https://arxiv.org/abs/1803.11175)<sup class="print"></sup> in [Version 4](https://tfhub.dev/google/universal-sentence-encoder/4)<sup class="print"></sup> genutzt.
 
-Zur einfachen Analyse wurde ein [Service](https://github.com/sebastian-meier/LoCobSS-text-similarity-dataflow) entwickelt, welcher Texte in 512-dimensionale Vektoren umwandelt.
+Zur einfachen Analyse wurde ein [Service](https://github.com/sebastian-meier/LoCobSS-text-similarity-dataflow)<sup class="print"></sup> entwickelt, welcher Texte in 512-dimensionale Vektoren umwandelt.
 
 Der Vorteil dieses Verfahrens ist, dass die Berechnung der Ähnlichkeiten genauso mit sehr wenigen Inhalten funktioniert, als auch sehr vielen. So können schon während die ersten Inhalte eintreffen, erste Analysen durchgeführt werden.
 
 #### 3.3.2 Ableiten von Ähnlichkeit
 
-Aufbauend auf den Text-Vektoren lässt sich eine Distanzmatrix erstellen, um schnell Ähnlichkeiten zwischen einzelnen Texten abzuleiten. So können z.B. Content-Recommendations basiernd auf den Ähnlichkeiten durchgeführt werden. Hierzu haben wir einen einfachen [Service](https://github.com/sebastian-meier/LoCobSS-text-similarity) entwickelt, welcher zu einem nutzergenerierten Inhalt die ähnlichsten Inhalte zurückgibt.
+Aufbauend auf den Text-Vektoren lässt sich eine Distanzmatrix erstellen, um schnell Ähnlichkeiten zwischen einzelnen Texten abzuleiten. So können z.B. Content-Recommendations basiernd auf den Ähnlichkeiten durchgeführt werden. Hierzu haben wir einen einfachen [Service](https://github.com/sebastian-meier/LoCobSS-text-similarity)<sup class="print"></sup> entwickelt, welcher zu einem nutzergenerierten Inhalt die ähnlichsten Inhalte zurückgibt.
 
-#### 3.3.3 ategorien identifizieren und Inhalte kategorisieren
+#### 3.3.3 Kategorien identifizieren und Inhalte kategorisieren
 
-Im Laufe der Entwicklung dieser Module haben wir unterschiedliche Methoden aus den Bereichen des Topic-Modellings und des Clusterings getestet. Topic-Modelling beschäftigt sich im NLP mit dem identifizieren von übergreifenden Themen innerhalb eines Textes. Clustering Methoden auf der anderen Seite versuchen ähnliche Datensätze zu identifizieren, in unserem Fall basierend auf den Werten der Vektoren. Beide Ansätze haben nicht zufriedenstellende Ergebnisse geliefert. Deshalb haben wir das Prinzip des Clusterings genommen und daraus einen kollaborativen Ansatz entwickelt, bei welchem Nutzer\*innen und algorithmen gemeinsam versuchen passende Gruppen zu bilden.
+Im Laufe der Entwicklung dieser Module haben wir unterschiedliche Methoden aus den Bereichen des Topic-Modellings und des Clusterings getestet. Topic-Modelling beschäftigt sich im NLP mit dem identifizieren von übergreifenden Themen innerhalb eines Textes. Clustering Methoden auf der anderen Seite versuchen ähnliche Datensätze zu identifizieren, in unserem Fall basierend auf den Werten der Vektoren.
+<div class="page-break"></div>
+Beide Ansätze haben nicht zufriedenstellende Ergebnisse geliefert. Deshalb haben wir das Prinzip des Clusterings genommen und daraus einen kollaborativen Ansatz entwickelt, bei welchem Nutzer\*innen und algorithmen gemeinsam versuchen passende Gruppen zu bilden.
 
 <figure>
 <figcaption>Prototyp: Inteface zum clustern von Inhalten</figcaption>
@@ -67,7 +69,7 @@ Die Redakteur\*innen wählen dazu erst eine Inhalt als aus Ausgangspunkt aus (si
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/Cluster-vis.png" alt="" /></center>
 </figure>
 
-Als visuelles Feature werden die Inhalte der Plattform in einer zwei-dimensionalen Punktewolke abgebildet. Mit Hilfe einer Dimensionsreduktion ([t-SNE](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding)) werden die Vektoren auf zwei Dimensionen reduziert. In dieser Wolke wird auch die aktuelle Auswahl des Cluster angezeigt. In der aktuellen Variante ist dies nur eine statische Visualisierung der ausgewählten Inhalte, zukünftig könnte man dies dahingehend erweitern, dass die Auswahl auch über die Visualisierung durchgeführt werden kann.
+Als visuelles Feature werden die Inhalte der Plattform in einer zwei-dimensionalen Punktewolke abgebildet. Mit Hilfe einer Dimensionsreduktion ([t-SNE](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding)<sup class="print"></sup>) werden die Vektoren auf zwei Dimensionen reduziert. In dieser Wolke wird auch die aktuelle Auswahl des Cluster angezeigt. In der aktuellen Variante ist dies nur eine statische Visualisierung der ausgewählten Inhalte, zukünftig könnte man dies dahingehend erweitern, dass die Auswahl auch über die Visualisierung durchgeführt werden kann.
 
 #### 3.3.4 Nutzergenerierte Kategorien
 
@@ -90,7 +92,7 @@ Neben der Kategorisierung durch die Redakteur\*innen haben wir ein weiteres Feat
 <figcaption>Prototyp: Inhaltsempfehlungen</figcaption>
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/recommendation.png" alt="" /></center>
 </figure>
-
+<div class="page-break"></div>
 ### Sentiment Analysis
 
-Auch wenn diese Funktion nicht während unserer Recherchen als ein wichtiges Feature für eine Partizipationsplattform aufkam, haben wir die Funktion von automatisierten Sentiment Analysen im Rahmen der Entwicklung von Hate-Speech-Detection exploriert. Die Ergebnisse waren sehr durchmischt. Teils werden Einstellungen zu bestimmten Themen sehr gut erkannt, häufig werden Einstellungen aber als eher neutral vom System bewertet. Für zukünftige Entwicklungen haben wir auch hierzu einen [Service](https://github.com/sebastian-meier/loCobSS-text-sentiment) entwickelt, welcher entsprechende Sentiment-Werte für einen eingegebenen Text zurückgibt.
+Auch wenn diese Funktion nicht während unserer Recherchen als ein wichtiges Feature für eine Partizipationsplattform aufkam, haben wir die Funktion von automatisierten Sentiment Analysen im Rahmen der Entwicklung von Hate-Speech-Detection exploriert. Die Ergebnisse waren sehr durchmischt. Teils werden Einstellungen zu bestimmten Themen sehr gut erkannt, häufig werden Einstellungen aber als eher neutral vom System bewertet. Für zukünftige Entwicklungen haben wir auch hierzu einen [Service](https://github.com/sebastian-meier/loCobSS-text-sentiment)<sup class="print"></sup> entwickelt, welcher entsprechende Sentiment-Werte für einen eingegebenen Text zurückgibt.

@@ -8,3 +8,4 @@ layout: pdf
 {% include_relative de/chapter03.md %}
 {% include_relative de/chapter04.md %}
 {% include_relative de/chapter05.md %}
+{% include_relative de/references.md %}

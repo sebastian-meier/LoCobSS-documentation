@@ -1,0 +1,43 @@
+<div class="page-break"></div>
+## Referenzen
+
+1. https://www.sebastianmeier.eu
+2. https://www.vislab.io
+3. https://www.fabiandinklage.com
+4. https://www.katringlinka.de
+5. https://www.bmbf.de/foerderungen/bekanntmachung-2767.html
+6. https://foerderportal.bund.de/foekat/jsp/SucheAction.do?actionMode=view&fkz=16IP103
+7. https://www.vraagvoordewetenschap.be/
+8. https://sampling.locobss.vislab.io/?lang=de
+9. https://privacy.locobss.vislab.io/?lang=de
+10. https://www.bmvi.de/SharedDocs/DE/Artikel/G/regionalstatistische-raumtypologie.html
+11. https://developers.google.com/recaptcha/docs/display
+12. https://github.com/sebastian-meier/locobss-vraagvoordewetenschap-harvester
+13. https://areebbeigh.github.io/profanityfilter/
+14. https://github.com/Hironsan/HateSonar
+15. https://en.wikipedia.org/wiki/Word2vec
+16. https://arxiv.org/abs/1803.11175
+17. https://tfhub.dev/google/universal-sentence-encoder/4
+18. https://github.com/sebastian-meier/LoCobSS-text-similarity-dataflow
+19. https://github.com/sebastian-meier/LoCobSS-text-similarity
+20. https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding
+21. https://github.com/sebastian-meier/loCobSS-text-sentiment
+22. https://www.zeit.de/datenjournalismus
+23. https://www.spiegel.de/thema/daten/
+24. https://interaktiv.tagesspiegel.de/
+25. https://www.morgenpost.de/interaktiv/
+26. https://www.nzz.ch/visuals
+27. https://www.theguardian.com/interactive
+28. https://www.nytimes.com/interactive/2020/12/30/us/2020-year-in-graphics.html
+29. https://www.washingtonpost.com/graphics/2017/ns/year-in-graphics/
+30. https://pudding.cool/
+31. https://www.ft.com/visual-and-data-journalism
+32. https://projects.fivethirtyeight.com/
+33. http://idl.cs.washington.edu/papers/narrative/?s=03
+34. https://airtable.com/shrugbQMDGVNvArMT/tblSrU1fNAykSMyXU
+35. https://datajournalism.com/
+36. https://github.com/nalgeon/dataviz
+37. Meier, S., Glinka, K. (2018) Data-driven Personal Cartographic Perspectives – An Overview Of Applied, Artistic, And Academic Visualization Projects For Egocentric Retrospective Analysis Of Personal Spatio-Temporal Behavior Cartograms, Kartographische Nachrichten, (13/8).
+38.     Meier, S., Glinka, K. (2017) The Individual in the Data, the Aspect of Personal Relevance in Designing Casual Data Visualisations. i-com Journal of Interactive Media. Special issue: Human-Computer Interaction in Geovisualization. De Gruyter.16(3).
+39. https://mobilitaet-in-tabellen.dlr.de/
+40. https://geoportal.bafg.de/inspire/download/NZ/servicefeed.xml
