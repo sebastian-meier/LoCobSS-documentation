@@ -1,10 +1,13 @@
-**LoCobSS documentation**
-# Technical documentation
+<div class="print-hide">
+<a href="../HTML.html">Zurück zur Übersicht</a>
+</div>
 
-## Overview
-![infrastructure architecture](../assets/images/architecture.png)
+## Technical documentation
 
-### Service Repositories
+### Overview
+![infrastructure architecture](https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/architecture.png)
+
+#### Service Repositories
 - [LoCobSS-platform](https://www.github.com/sebastian-meier/LoCobSS-platform)
 - [LoCobSS-text-similarity](https://www.github.com/sebastian-meier/LoCobSS-text-similarity)
 - [LoCobSS-text-similarity-dataflow](https://www.github.com/sebastian-meier/LoCobSS-text-similarity-dataflow)

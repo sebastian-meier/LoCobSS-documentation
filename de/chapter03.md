@@ -1,3 +1,7 @@
+<div class="print-hide">
+<a href="../HTML.html">Zurück zur Übersicht</a>
+</div>
+
 ## Analyse der Fragen: Unterstützung der Redakteur\*innen
 
 Ein Großteil der Bemühungen rund um die Befragung der Bürger\*innen stellt die Erhebung und Partizipation in den Mittelpunkt. Währenddessen sollte nicht vergessen werden, dass auch die Mitarbeiter\*innen bei der Handhabung der eintreffenden Fragen unterstützt werden müssen. Wenn das Verfahren in [Belgien](https://www.vraagvoordewetenschap.be/) als Grundlage genommen wird, sollten in Deutschland um die 50.000 Inhalte durch die Bürger\*innen generiert werden. Diese Inhalte müssen überprüft, freigegeben und kategorisiert werden. Wenn jeder Frage nur eine Minute Aufmerksamkeit geschenkt wird, bedeutet dies über 100 Arbeitstage nur mit der reinen Administration der Inhalte.
@@ -53,14 +57,14 @@ Im Laufe der Entwicklung dieser Module haben wir unterschiedliche Methoden aus d
 
 <figure>
 <figcaption>Prototyp: Inteface zum clustern von Inhalten</figcaption>
-<center><img src="../assets/images/Cluster.png" alt="" /></center>
+<center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/Cluster.png" alt="" /></center>
 </figure>
 
 Die Redakteur\*innen wählen dazu erst eine Inhalt als aus Ausgangspunkt aus (siehe Abbildung **Ausgangsfrage**). Das System sucht nun zu diesem Objekt ähnliche Inhalte heraus (siehe Abbildung **Potentielle Kandidaten**). Aus diesen Kandidaten können nun die ähnlichen Objekte ausgewählt werden. Diese werden dann dem aktuellen Cluster hinzugefügt. Alle nicht ausgewählten Kandiaten landen in der Liste ausgeschlossener Inhalte. Nachdem eine Auswahl getätigt wurde, nutzt das System die neuen Objekte, um daraus weitere ähnliche Inhalte abzuleiten. So können mit nur wenigen Clicks hunderte Objekte in Kategorien komibiniert werden. Abschließend kann man der Sammlung einen Namen geben und so die Navigation und Suche für Besucher\*innen der Seite unterstützen.
 
 <figure>
 <figcaption>Prototyp: Visualisierung der Ähnlichkeiten, in rot das Cluster zum Thema Trinkwasser</figcaption>
-<center><img src="../assets/images/Cluster-vis.png" alt="" /></center>
+<center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/Cluster-vis.png" alt="" /></center>
 </figure>
 
 Als visuelles Feature werden die Inhalte der Plattform in einer zwei-dimensionalen Punktewolke abgebildet. Mit Hilfe einer Dimensionsreduktion ([t-SNE](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding)) werden die Vektoren auf zwei Dimensionen reduziert. In dieser Wolke wird auch die aktuelle Auswahl des Cluster angezeigt. In der aktuellen Variante ist dies nur eine statische Visualisierung der ausgewählten Inhalte, zukünftig könnte man dies dahingehend erweitern, dass die Auswahl auch über die Visualisierung durchgeführt werden kann.
@@ -73,7 +77,7 @@ Neben der Kategorisierung durch die Redakteur\*innen haben wir ein weiteres Feat
 
 <figure>
 <figcaption>Prototyp: Nutzergenerierte Ähnlichkeiten</figcaption>
-<center><img src="../assets/images/crowd-sourcing.png" alt="" /></center>
+<center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/crowd-sourcing.png" alt="" /></center>
 </figure>
 
 <div class="page-break"></div>
@@ -84,7 +88,7 @@ Neben der Kategorisierung durch die Redakteur\*innen haben wir ein weiteres Feat
 
 <figure>
 <figcaption>Prototyp: Inhaltsempfehlungen</figcaption>
-<center><img src="../assets/images/recommendation.png" alt="" /></center>
+<center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/recommendation.png" alt="" /></center>
 </figure>
 
 ### Sentiment Analysis

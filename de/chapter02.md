@@ -1,4 +1,7 @@
 <div class="page-break"></div>
+<div class="print-hide">
+<a href="../HTML.html">Zurück zur Übersicht</a>
+</div>
 
 ## Datenschutzkonforme Erhebung von Nutzer\*innendaten
 
@@ -33,7 +36,7 @@ Um diese Gefahren ganz praktisch anhand einiger Beispiele zu demonstrieren, habe
 
 <figure>
 <figcaption>Demo: Daten erheben & die Privatsphäre schützen</figcaption>
-<center><img src="../assets/images/privacy-sampling.png" alt="" /></center>
+<center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/privacy-sampling.png" alt="" /></center>
 </figure>
 
 ### Möglichkeiten zur Erhebung sensibler Information
@@ -44,7 +47,7 @@ Um diese Methode der **client-side classification** zu demonstrieren, haben wir 
 
 <figure>
 <figcaption>Demo: Client-side Classification</figcaption>
-<center><img src="../assets/images/privacy-demo.png" alt="" /></center>
+<center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/privacy-demo.png" alt="" /></center>
 </figure>
 
 #### Implementierung
@@ -53,7 +56,7 @@ Im Prototypen haben wir die Trennung von demographischen Daten und Nutzerdaten e
 
 <figure>
 <figcaption>Prototyp: Formular zum Stellen einer Frage</figcaption>
-<center><img src="../assets/images/form.png" alt="" /></center>
+<center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/form.png" alt="" /></center>
 </figure>
 
 Weiterhin haben wir bei der Implementierung versucht sogenannte "Dark Design Patterns" zu vermeiden und "Ethical Design" Prinzipien zu verfolgen:

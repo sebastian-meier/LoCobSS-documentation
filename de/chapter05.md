@@ -1,7 +1,11 @@
+<div class="print-hide">
+<a href="../HTML.html">Zurück zur Übersicht</a>
+</div>
+
 ## Prototyp: Technische Dokumentation
 
 #### Overview
-![infrastructure architecture](../assets/images/architecture.png)
+![infrastructure architecture](https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/architecture.png)
 
 #### Service Repositories
 - [LoCobSS-platform](https://www.github.com/sebastian-meier/LoCobSS-platform)
