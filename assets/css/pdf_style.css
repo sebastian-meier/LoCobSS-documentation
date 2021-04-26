@@ -1,0 +1,335 @@
+/* - * - * - * - * - * - * - * - * - * - */
+/* 1.0 CSS to make A4 print preview as default web view */
+
+@media screen {
+
+	.pagedjs_pages {
+			 display: flex;
+			 width: calc(var(--pagedjs-width));
+			 flex: 0; flex-wrap: wrap;
+			 margin: 0 auto; justify-content: center;
+
+	 }
+
+	 .pagedjs_page {
+			 margin: 10mm; border: solid 1px gray;
+	 }
+}
+
+.pagedjs_margin-content{
+	font-size:12px;
+}
+
+/* - * - * - * - * - * - * - * - * - * - */
+/* 1.5 Some Custom Font Families */
+
+@font-face {
+  font-family: 'IBM Plex Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local("IBM Plex Sans Cond Bold"), local("IBMPlexSansCond-Bold"), url("../fonts/IBM-Plex-Sans-Condensed/fonts/complete/woff2/IBMPlexSansCondensed-Bold.woff2") format("woff2"), url("../fonts/IBM-Plex-Sans-Condensed/fonts/complete/woff/IBMPlexSansCondensed-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: 'IBM Plex Sans Condensed';
+  font-style: italic;
+  font-weight: 700;
+  src: local("IBM Plex Sans Cond Bold Italic"), local("IBMPlexSansCond-BoldItalic"), url("../fonts/IBM-Plex-Sans-Condensed/fonts/complete/woff2/IBMPlexSansCondensed-BoldItalic.woff2") format("woff2"), url("../fonts/IBM-Plex-Sans-Condensed/fonts/complete/woff/IBMPlexSansCondensed-BoldItalic.woff") format("woff"); }
+
+@font-face {
+  font-family: 'IBM Plex Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local("IBM Plex Sans Cond Light"), local("IBMPlexSansCond-Light"), url("../fonts/IBM-Plex-Sans-Condensed/fonts/complete/woff2/IBMPlexSansCondensed-Light.woff2") format("woff2"), url("../fonts/IBM-Plex-Sans-Condensed/fonts/complete/woff/IBMPlexSansCondensed-Light.woff") format("woff"); }
+
+@font-face {
+  font-family: 'IBM Plex Sans Condensed';
+  font-style: italic;
+  font-weight: 300;
+  src: local("IBM Plex Sans Cond Light Italic"), local("IBMPlexSansCond-LightItalic"), url("../fonts/IBM-Plex-Sans-Condensed/fonts/complete/woff2/IBMPlexSansCondensed-LightItalic.woff2") format("woff2"), url("../fonts/IBM-Plex-Sans-Condensed/fonts/complete/woff/IBMPlexSansCondensed-LightItalic.woff") format("woff"); }
+
+
+strong{
+	font-weight:700;
+}
+
+/* - * - * - * - * - * - * - * - * - * - */
+/* 2.0 General Formatting */
+html { font-family: "IBM Plex Sans Condensed", sans-serif; font-weight:300; font-size:16px; }
+h1 { border-bottom: 1px solid black; margin-bottom: 2rem; padding-bottom: 1rem; }
+h2 { border-bottom: 0.1875rem solid black; margin-bottom: 1rem; padding-bottom: 0.5rem; }
+p {	text-align: left; line-height: 1.4rem; }
+a { color: #347dbd; }
+a:hover { color: #FC814A; }
+mark { color: purple; background-color: inherit; }
+light-mark { color: purple; }
+img { max-width: calc(100% - 3rem); }
+.img-75mm { height: 75mm; }
+
+center { border: 0.5px solid gray; padding: 1.5rem; }
+
+pre {
+ background-color: #f0f0f0;
+ font-family: 'Custom Mono', monospace;
+ padding: 1rem;
+ font-size: smaller;
+ white-space: pre-wrap;
+}
+code { margin-bottom: 1.5rem; display: block;}
+figure {
+ margin-block-start: 2rem; margin-block-end: 2rem;
+ margin-inline-start: 0rem; margin-inline-end: 0rem;
+}
+figcaption { caption-side: top; padding-bottom: 0.75rem;
+ border-bottom: 0.5px solid gray; margin-bottom: 1.5rem;
+ color: gray; font-weight: bold;
+ font-size:12px;
+} 
+
+
+
+/* - * - * - * - * - * - * - * - * - * - */
+/* 3.1 Page Size */
+@page { size: A4; }
+
+/* 3.2 Page Breaks */
+.page-break { break-after: page; }
+h2:not(.no-break) { break-before: page; margin-block-start: 0rem; margin-block-end: 1.66rem; }
+h2.no-break:not(.top) { margin-block-start: 3rem; margin-block-end: 1.66rem;}
+h2.top { margin-block-start: 0rem; margin-block-end: 1.66rem; }
+
+h3:not(.top) {margin-block-start: 2.49rem; margin-block-end: 0.83rem;}
+h3.top { margin-block-start: 1.66rem; margin-block-end: 0.83rem; }
+
+/* 3.3 Page Numbers */
+@page { @bottom-right { content: counter(page); } }
+
+/* We use the counter-reset class to prevent the page
+numbers starting from the cover page, but rather
+from the next page (table of contents) */
+.counter-reset { counter-reset: page 1; }
+
+
+
+/* - * - * - * - * - * - * - * - * - * - */
+/* 4.1 Automatic Counters */
+body {
+ counter-reset: sectionNumber;
+ counter-reset: subsectionNumber;
+ counter-reset: figureNumber;
+}
+
+h2:not(.no-counter) { counter-increment: sectionNumber; }
+h2 { counter-reset: subsectionNumber; }
+
+h3:not(.no-counter) { counter-increment: subsectionNumber; }
+h3 { counter-reset: figureNumber; }
+
+figure:not(.no-counter) { counter-increment: figureNumber; }
+
+h2:not(.no-counter):before {
+ content: counter(sectionNumber) ". ";
+}
+
+h3:not(.no-counter)::before {
+ content: counter(sectionNumber) "." counter(subsectionNumber) " ";
+}
+
+figcaption:not(.no-counter)::before {
+ content: "Fig. " counter(sectionNumber) "." counter(subsectionNumber) "." counter(figureNumber) " ";
+}
+
+/* 4.2 Headers & Footers */
+.footer { position: running(footerRunning); }
+@page {
+ @bottom-left {
+		 content: element(footerRunning); width: 80mm;
+	 }
+}
+
+h2 { string-set: section content(text);	}
+h3 { string-set: subsection content(text); }
+@page {
+ @top-right { content: string(section);
+		 /* ALT: content: string(section) " - " string(subsection); */
+	 }
+}
+
+/* 4.3 Cover Pages */
+.cover-page { page: cover-page; }
+.cover-page h1 { border-bottom: 0.25rem solid white; }
+.cover-page h3 { font-weight: normal; }
+@page cover-page {
+	 /*background-color: #347dbd; color: white;*/
+	 @top-right { content: none; }
+	 @bottom-left { content: none; }
+	 @bottom-right { content: none; }
+}
+
+
+
+/* - * - * - * - * - * - * - * - * - * - */
+/* 5.1 Table of Contents */
+.table-of-contents { page: table-of-contents; }
+@page table-of-contents {
+ @top-right { content: none; }
+ @bottom-left { content: none; }
+}
+
+/* Additional CSS: Advanced Styling for TOC */
+.toc-header { margin-bottom: 1rem; border-bottom: 0.375rem solid black; }
+.table-of-contents, .table-of-contents a, .table-of-contents a:hover {
+ font-family: 'IBM Plex Sans Condensed', sans-serif; 
+ font-size:14px;
+}
+
+ul li, ol li{
+	margin-bottom:0.5rem;
+}
+
+.table-of-contents ol, .table-of-contents ul{
+		padding-inline-start: 0px;
+}
+
+ol, ul {
+ padding-inline-start: 30px;
+}
+
+ol, ul a {
+ text-decoration: none;
+}
+
+.toc-element-level-1 a, .toc-element-level-2 a {
+ color: black;
+}
+
+/* set the style for the list numbering to none */
+#list-toc-generated{ list-style: none; }
+
+#list-toc-generated .toc-element a::after{
+	 content: target-counter(attr(href), page);
+	 float: right;
+}
+
+#list-toc-generated .toc-element-level-1 {
+	 border-bottom: 0.0625rem solid black;
+	 margin-top: 2rem; margin-bottom: 1rem;
+	 padding-bottom: 0.5rem;
+	 font-weight: bold;
+}
+
+/* counters */
+
+#list-toc-generated {  
+	 counter-reset: counterTocLevel1; 
+}
+
+#list-toc-generated .toc-element-level-1{ 
+	 counter-increment: counterTocLevel1; 
+	 counter-reset: counterTocLevel2; 
+}
+
+#list-toc-generated .toc-element-level-1::before{ 
+	 content: counter(counterTocLevel1) ". ";
+	 padding-right: 5px;
+}
+
+#list-toc-generated .toc-element-level-2 { 
+	 counter-increment: counterTocLevel2;
+	 margin-bottom: 0.5rem;
+}
+
+#list-toc-generated .toc-element-level-2::before{ 
+	 content: counter(counterTocLevel1) "." counter(counterTocLevel2) " ";
+	 padding-right: 5px;
+}
+
+/* hack for leaders */
+
+#list-toc-generated{
+	 overflow-x: hidden;
+}
+
+/* fake leading */
+#list-toc-generated .toc-element-level-2::after{
+	 content: 
+			 ".............................................."
+			 ".............................................."
+			 ".............................................."  
+			 "........";
+	 float: left;
+	 width: 0;
+	 padding-left: 5px;
+	 letter-spacing: 2px;
+}
+
+#list-toc-generated .toc-element{
+	 display: flex; 
+}
+
+#list-toc-generated .toc-element a::after{
+	 position: absolute;
+	 right: 0;
+	 background-color: white;
+	 padding-left: 6px;
+}
+
+#list-toc-generated .toc-element a{
+	 right: 0;
+}
+
+/* 5.3 Banners */
+.banner-class {	page: top-banner; }
+@page top-banner {
+ @top-left-corner { background-color: #445a75; content: " ";}
+ @top-left {	background-color: #445a75; content: " ";}
+ @top-center { background-color: #445a75; 
+	 color: white;
+	 content: "Sample Banner Text";
+ }
+ @top-right { background-color: #445a75;	content: " ";}
+ @top-right-corner { background-color: #445a75; content: " ";}
+}
+
+
+
+/* - * - * - * - * - * - * - * - * - * - */
+/* 6.0 STIX FONTS (for Math Publishing)
+
+@font-face {
+ font-family: 'STIX Two Math Regular';
+ src: url('fonts/STIXTwoMath-Regular.woff2') format('woff2');
+}
+
+@font-face {
+ font-family: 'STIX Two Text';
+ src: url('fonts/STIXTwoText-Regular.woff2') format('woff2');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'STIX Two Text';
+ src: url('fonts/STIXTwoText-Bold.woff2') format('woff2');
+ font-weight: bold;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'STIX Two Text';
+ src: url('fonts/STIXTwoText-Italic.woff2') format('woff2');
+ font-weight: normal;
+ font-style: italic;
+}
+
+@font-face {
+ font-family: 'STIX Two Text';
+ src: url('fonts/STIXTwoText-BoldItalic.woff2') format('woff2');
+ font-weight: bold;
+ font-style: italic;
+}
+
+html, a, a:hover {
+ font-family: 'Stix Two Text', 'Stix Two Math Regular', Serif;
+}
+
+*/

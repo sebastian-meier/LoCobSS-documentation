@@ -1,0 +1,23 @@
+{
+  "name": "locobss-documentation",
+  "version": "1.0.0",
+  "description": "LoCobSS Documentation",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jekyll": "bundle exec jekyll serve -P 4004"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastian-meier/sebastianmeier.git"
+  },
+  "keywords": [
+    "jekyll"
+  ],
+  "author": "sebastian-meier @seb_meier",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/sebastian-meier/locobss-documentation/issues"
+  },
+  "homepage": "https://github.com/sebastian-meier/locobss-documentation#readme"
+}

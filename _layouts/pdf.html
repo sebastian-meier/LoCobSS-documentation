@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>Beautiful PDFs from HTML</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/pdf_style.css">
+	<script src="assets/js/toc.js"></script>
+	<script src="assets/js/paged.polyfill.js"></script>
+	<script>
+		class handlers extends Paged.Handler {
+		    constructor(chunker, polisher, caller) {
+				super(chunker, polisher, caller);
+		    }
+		    beforeParsed(content){
+			    createToc({
+		    		content: content,
+		    		tocElement: '#toc',
+		    		titleElements: [ 'h2:not(.cover-header)', 'h3:not(.cover-header)' ]
+		    	});
+			}
+		  }
+		  Paged.registerHandlers(handlers);
+	</script>
+</head>
+
+<body>
+
+{{ content }}
+
+</body>
+</html>

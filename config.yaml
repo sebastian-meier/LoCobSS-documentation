@@ -1,0 +1,10 @@
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
+
+exclude: ["_backup", "CNAME", "LICENSE.md", "pdf-main"]
+
+markdown: kramdown
+permalink: pretty

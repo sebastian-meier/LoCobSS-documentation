@@ -3,22 +3,35 @@
 ## Deutsch
 Dies ist die offizielle Dokumentation des vom BMBF geförderten Forschungsprojektes LoCobSS (Location and Context-based Surveys & Storytelling).
 
-Die Dokumentation ist in vier Kapitel unterteilt:
+Die Dokumentation ist verfügbar als:
 
-1. [Einleitung und **Executive Summary**](/de/chapter01.md)
-2. [**Umfrage:** Datenschutzkonforme Erhebung von Nutzer\*innendaten](/de/chapter02.md)
-3. [**Analyse der Fragen:** Unterstützung der Redakteur\*innen](/de/chapter03.md)
-4. [**Wissenschaftskommunikation:** Auf Benutzer\*innen zugeschnittenes, datengestütztes Storytelling im Web](/de/chapter04.md)
-5. [**Umfrage Prototyp:** Strukturelle & Technische Dokumentation](/de/chapter05.md)
+- [**PDF**](https://sebastian-meier.github.io/LoCobSS-documentation/PDF.html)
+- [**HTML**](https://sebastian-meier.github.io/LoCobSS-documentation/HTML.html)
 
-[PDF Download](/de/documentation.pdf)
+### Projektteam
+
+- [Sebastian Meier](https://www.sebastianmeier.eu) @ [VISLAB.io](https://www.vislab.io), Projektleitung und Entwicklung
+- [Fabian Dinklage](https://www.fabiandinklage.com), Visualisierung und Entwicklung
+- [Katrin Glinka](https://www.katringlinka.de), Inhalte und Evaluation
 
 ## English
 This is the official documentation of the BMBF-funded research project LoCobSS (Location and Context-based Surveys & Storytelling).
 
-The full documentation is only available in German (see above), but we offer the most essential bits in english as well, particularly the code documentation:
+A short version of the documentation is also available in english:
 
-1. [Introduction and **executive summary**](/en/chapter01.md)
-4. [**Survey Prototype:** Technical documentation](/en/chapter04.md)
+[**English Version**](https://sebastian-meier.github.io/LoCobSS-documentation/EN.html)
 
-[PDF Download](/en/documentation.pdf)
+### Project team
+
+- [Sebastian Meier](https://www.sebastianmeier.eu) @ [VISLAB.io](https://www.vislab.io), project management and development
+- [Fabian Dinklage](https://www.fabiandinklage.com), visualisation and development
+- [Katrin Glinka](https://www.katringlinka.de), content and evaluation
+
+
+## Rendering the docs
+
+```
+gem install bundler
+bundle install
+npm run jekyll
+```

@@ -1,10 +1,9 @@
-**LoCobSS documentation**
-# Teil 5 - Prototyp: Technische Dokumentation
+## Prototyp: Technische Dokumentation
 
-## Overview
+#### Overview
 ![infrastructure architecture](../assets/images/architecture.png)
 
-### Service Repositories
+#### Service Repositories
 - [LoCobSS-platform](https://www.github.com/sebastian-meier/LoCobSS-platform)
 - [LoCobSS-text-similarity](https://www.github.com/sebastian-meier/LoCobSS-text-similarity)
 - [LoCobSS-text-similarity-dataflow](https://www.github.com/sebastian-meier/LoCobSS-text-similarity-dataflow)
