@@ -41,3 +41,4 @@
 38.     Meier, S., Glinka, K. (2017) The Individual in the Data, the Aspect of Personal Relevance in Designing Casual Data Visualisations. i-com Journal of Interactive Media. Special issue: Human-Computer Interaction in Geovisualization. De Gruyter.16(3).
 39. https://mobilitaet-in-tabellen.dlr.de/
 40. https://geoportal.bafg.de/inspire/download/NZ/servicefeed.xml
+41. https://www.github.com/sebastian-meier/LoCobSS-platform
