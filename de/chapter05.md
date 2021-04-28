@@ -37,7 +37,7 @@ Das Frontend in der alle Komponenten für die Umfrage zusammenfließen ist im **
 
 **Öffentlicher Bereich**
 
-Nutzer\*innen können die von anderen Teilnehmer\*innen erstellten Inhalte auf der Plattform im öffentlichen Bereich explorieren. Inhalte können nach Taxonomien, Datum, Suchbegriffen und ob es schon eine Antwort für die Frage gibt, gefiltert werden. Um das System möglichst performant zu machen, werden immer nur 10 Fragen angezeigt. Nutzer\*innen die eingeloggt sind, können hier auch schon Fragen markieren. Daten werden über die [API](https://www.github.com/sebastian-meier/LoCobSS-api)<sup class="print"></sup> bereitgestellt.
+Nutzer\*innen können die von anderen Teilnehmer\*innen erstellten Inhalte auf der Plattform im öffentlichen Bereich explorieren. Inhalte können nach Taxonomien, Datum, Suchbegriffen und ob es schon eine Antwort für die Frage gibt, gefiltert werden. Daten werden über die [API](https://www.github.com/sebastian-meier/LoCobSS-api)<sup class="print"></sup> bereitgestellt.
 
 **Router**: src/lib/routes/survey.ts<br />
 **View**: src/views/pages/survey/list.svelte<br />
