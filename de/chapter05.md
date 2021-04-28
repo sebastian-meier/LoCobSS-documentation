@@ -59,6 +59,10 @@ Zu jeder Frage gibt es auch eine Detailansicht. Neben weiteren Details zur Frage
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/prototype/survey_detail.png" alt="" /></center>
 </figure>
 
+<div class="page-break"></div>
+
+Besucher\*innen der Plattform könne auch direkt Fragen stellen, ohne sich vorher registrieren zu müssen. Das [Recaptcha-Verfahren](https://developers.google.com/recaptcha/docs/display)<sup class="print ignore">11</sup> wird genutzt, um die Seite weitesgehend vor Spam zu schützen.
+
 **Router**: src/lib/routes/survey.ts <br />
 **View**: src/views/pages/survey/ask.svelte<br />
 **API**: /question/create
