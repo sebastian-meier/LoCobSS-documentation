@@ -72,13 +72,13 @@ Das Formular zum Erfassen der Fragen nutzt Client-Side Classification zur Erfass
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/prototype/survey_ask.png" alt="" /></center>
 </figure>
 
+<div class="page-break"></div>
+
+Die Abgeschickten Fragen werden auf Profanität hin [überprüft](https://www.github.com/sebastian-meier/LoCobSS-text-profanity)<sup class="print"></sup>, eine [Sentiment-Analyse](https://www.github.com/sebastian-meier/LoCobSS-text-sentiment)<sup class="print"></sup> wird durchgeführt, sowie [Ähnlichkeiten](https://www.github.com/sebastian-meier/LoCobSS-similarity)<sup class="print"></sup> zu Beiträgen anderer Bürger\*innen werden berechnet. Fragedaten und statistische Daten werden unabhängig gespeichert. Danach werden ähnliche Fragen angezeigt, welche die Benutzer\*in dann ranken kann.
+
 **Router**: src/lib/routes/survey.ts<br />
 **View**: src/views/pages/survey/ask.svelte<br />
 **API**: /question/link
-
-https://www.github.com/sebastian-meier/LoCobSS-text-profanity<sup class="print"></sup>
-https://www.github.com/sebastian-meier/LoCobSS-similarity<sup class="print"></sup>
-https://www.github.com/sebastian-meier/LoCobSS-text-sentiment<sup class="print"></sup>
 
 <figure>
 <figcaption>Prototyp: Crowd-sourced Classification</figcaption>
