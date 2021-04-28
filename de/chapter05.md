@@ -31,7 +31,7 @@ In der aktuellen Version wurden die Services und Komponenten für die Google-Clo
 
 #### 5.1.2 Frontend
 
-Das Frontend in der alle Komponenten für die Umfrage zusammenfließen ist im **LoCobSS-platform** Repository zusammengeführt. Es handelt sich hierbei um eine sogenannte Single Page Application (SPA), welche mit dem Framework [SVELTE](https://svelte.dev/)<sup class="print"></a> entwickelt wurde. Die Anwendung lässt sich grob in drei Hauptbereiche unterteilen: 1) Öffentlicher Bereich zum Durchstöbern der Fragen und Fragen stellen, 2) Interner Bereich für Bürger\*innen zur Verwaltung der eigenen Daten und zur Verfolgung von Fragen, sowie 3) der Bereich für Redakteur\*innen zum Verwalten der Fragen und Nutzer\*innen.
+Das Frontend in der alle Komponenten für die Umfrage zusammenfließen ist im **LoCobSS-platform** Repository zusammengeführt. Es handelt sich hierbei um eine sogenannte Single Page Application (SPA), welche mit dem Framework [SVELTE](https://svelte.dev/)<sup class="print"></sup> entwickelt wurde. Die Anwendung lässt sich grob in drei Hauptbereiche unterteilen: 1) Öffentlicher Bereich zum Durchstöbern der Fragen und Fragen stellen, 2) Interner Bereich für Bürger\*innen zur Verwaltung der eigenen Daten und zur Verfolgung von Fragen, sowie 3) der Bereich für Redakteur\*innen zum Verwalten der Fragen und Nutzer\*innen.
 
 **Repo: [LoCobSS-platform](https://www.github.com/sebastian-meier/LoCobSS-platform)<sup class="print"></sup>**
 
@@ -74,7 +74,7 @@ Das Formular zum Erfassen der Fragen nutzt Client-Side Classification zur Erfass
 
 <div class="page-break"></div>
 
-Die Abgeschickten Fragen werden auf Profanität hin [überprüft](https://www.github.com/sebastian-meier/LoCobSS-text-profanity)<sup class="print"></sup>, eine [Sentiment-Analyse](https://www.github.com/sebastian-meier/LoCobSS-text-sentiment)<sup class="print"></sup> wird durchgeführt, sowie [Ähnlichkeiten](https://www.github.com/sebastian-meier/LoCobSS-similarity)<sup class="print"></sup> zu Beiträgen anderer Bürger\*innen werden berechnet. Fragedaten und statistische Daten werden unabhängig gespeichert. Danach werden ähnliche Fragen angezeigt, welche die Benutzer\*in dann ranken kann.
+Die abgeschickten Fragen werden auf Profanität hin [überprüft](https://www.github.com/sebastian-meier/LoCobSS-text-profanity)<sup class="print"></sup>, eine [Sentiment-Analyse](https://www.github.com/sebastian-meier/LoCobSS-text-sentiment)<sup class="print"></sup> wird durchgeführt, sowie [Ähnlichkeiten](https://www.github.com/sebastian-meier/LoCobSS-similarity)<sup class="print"></sup> zu Beiträgen anderer Bürger\*innen werden berechnet. Fragedaten und statistische Daten werden unabhängig gespeichert. Danach werden ähnliche Fragen angezeigt, welche die Benutzer\*in dann ranken kann (siehe Kapitel 3.3.4).
 
 **Router**: src/lib/routes/survey.ts<br />
 **View**: src/views/pages/survey/ask.svelte<br />
@@ -85,6 +85,10 @@ Die Abgeschickten Fragen werden auf Profanität hin [überprüft](https://www.gi
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/prototype/survey_crowd.png" alt="" /></center>
 </figure>
 
+<div class="page-break"></div>
+
+Benutzer\*innen können sich während dem Stellen einer Frage registrieren oder unabhängig davon.
+
 **Router**: src/lib/routes/user.ts<br />
 **View**: src/views/pages/user/register.svelte
 
@@ -92,6 +96,10 @@ Die Abgeschickten Fragen werden auf Profanität hin [überprüft](https://www.gi
 <figcaption>Prototyp: Registrierung</figcaption>
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/prototype/user_register.png" alt="" /></center>
 </figure>
+
+<div class="page-break"></div>
+
+Durch den Login bekommen Nutzer\*innen die Möglichkeit Fragen zu markieren (like) und ihre eigenen Fragen zu verfolgen.
 
 **Router**: src/lib/routes/user.ts <br />
 **View**: src/views/pages/user/login.svelte
@@ -101,13 +109,19 @@ Die Abgeschickten Fragen werden auf Profanität hin [überprüft](https://www.gi
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/prototype/user_login.png" alt="" /></center>
 </figure>
 
+<!-- <div class="page-break"></div>
+
 **Router**: src/lib/routes/user.ts <br />
 **View**: src/views/pages/user/view.svelte
 
 <figure>
 <figcaption>Prototyp: Benutzer-Account</figcaption>
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/prototype/user_welcome.png" alt="" /></center>
-</figure>
+</figure> -->
+
+<div class="page-break"></div>
+
+In der persönlichen Liste werden die eigenen Fragen und markierten Inhalte übersichtlich zusammengeführt.
 
 **Router**: src/lib/routes/survey.ts <br />
 **View**: src/views/pages/survey/mylist.svelte<br />
@@ -119,6 +133,10 @@ Die Abgeschickten Fragen werden auf Profanität hin [überprüft](https://www.gi
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/prototype/user_list.png" alt="" /></center>
 </figure>
 
+<div class="page-break"></div>
+
+Die Administrationsansicht ist etwas funktionaler gestaltet. Von hier aus können Fragen schnell gelöscht, bearbeitet und Kategorisiert werden.
+
 **Router**: src/lib/routes/admin.ts<br />
 **View**: src/views/pages/admin/questions/list.svelte<br />
 **API**: /questions<br />
@@ -129,6 +147,10 @@ Die Abgeschickten Fragen werden auf Profanität hin [überprüft](https://www.gi
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/prototype/questions_list.png" alt="" /></center>
 </figure>
 
+<div class="page-break"></div>
+
+Über die Bearbeitungsansicht kann der Status der Fragen verändert werden (nur auf "veröffentlicht" gestellte Fragen, tauchen im öffentlichen Bereich auf), Zuordnungen zu Kategorien oder Antworten gemacht werden, sowie Textänderungen an den Fragen vorgenommen werden. Als zusätzliche Informationen werden die Ergebnisse der Sentiment- und Profanitäts-Analyse angezeigt.
+
 **Router**: src/lib/routes/admin.ts <br />
 **View**: src/views/pages/admin/questions/edit.svelte<br />
 **API**: /question/update/:id
@@ -137,6 +159,10 @@ Die Abgeschickten Fragen werden auf Profanität hin [überprüft](https://www.gi
 <figcaption>Prototyp: Administration - Detailansicht einer Frage</figcaption>
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/prototype/questions_edit.png" alt="" /></center>
 </figure>
+
+<div class="page-break"></div>
+
+In der Clusteransicht können Fragen inhaltlich in gemeinsame Taxonomien überführt werden. Siehe hierzu auch Kapitel 3.3.3
 
 **Router**: src/lib/routes/admin.ts<br />
 **View**: src/views/pages/admin/questions/cluster.svelte<br />
@@ -150,6 +176,10 @@ Die Abgeschickten Fragen werden auf Profanität hin [überprüft](https://www.gi
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/prototype/questions_cluster.png" alt="" /></center>
 </figure>
 
+<div class="page-break"></div>
+
+Die über die Clusterung erstellen Kategorien können später über die entsprechenden Seite auch nachträglich bearbeitet werden.
+
 **Router**: src/lib/routes/admin.ts<br />
 **View**: src/views/pages/admin/taxonomy/list.svelte<br />
 **API**: /public/taxonomies<br />
@@ -160,18 +190,29 @@ Die Abgeschickten Fragen werden auf Profanität hin [überprüft](https://www.gi
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/prototype/taxonomy_list.png" alt="" /></center>
 </figure>
 
-**Router**: src/lib/routes/admin.ts<br />
+<!-- **Router**: src/lib/routes/admin.ts<br />
 **View**: src/views/pages/admin/taxonomy/edit.svelte<br />
 **API**: /taxonomy/edit/:id
 
 <figure>
 <figcaption>Prototyp: Administration - Taxonomie bearbeiten</figcaption>
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/prototype/taxonomy_edit.png" alt="" /></center>
-</figure>
+</figure> -->
 
-- [LoCobSS-text-similarity-dataflow](https://www.github.com/sebastian-meier/LoCobSS-text-similarity-dataflow)<sup class="print"></sup>
+<div class="page-break"></div>
 
 #### 5.2 Daten-gestütztes Storytelling
-- [LoCobSS-dwd-transform](https://www.github.com/sebastian-meier/LoCobSS-dwd-transform)<sup class="print"></sup>
-- [LoCobSS-co2-data](https://www.github.com/sebastian-meier/LoCobSS-co2-data)<sup class="print"></sup>
 
+Die daten-gestützten Storytelling-Anwendungen sind ebenfalls in SVELTE entwickelt worden. Zu den Konzepten zur Personalisierung siehe Kapitel 4.1ff und den Inhalten der beiden Anwendungen siehe Kapitel 4.4 und 4.5. Im Folgenden geben wir einen kurzen Einblick in die datenwissenschaftlichen Arbeiten hinter den Anwendungen.
+
+#### 5.2.1 Klimawandel und Mobilität
+
+Das Herz der Mobilitätsanwendung ist eine spezielle Routing-Engine zur Berechnung von CO2-Produktion auf bestimmten Strecken. Hierzu haben wir die [Valhalla](https://github.com/valhalla/valhalla)<sup class="print"></sup> Routing Engine so modifiziert, dass statt Zeit nun CO2 zur Berechnung genutzt wird. Diese spezielle [Version](https://github.com/sebastian-meier/valhalla/tree/co2)<sup class="print"></sup> haben wir ebenfalls öffentlich zugänglich gemacht. Hierzu mussten wir erst [CO2-Modelle](https://github.com/sebastian-meier/valhalla-co2) generieren. Anschließend haben wir für die verschiedenen Mobilitätsprofile und Postleitzahlen statische [Datenexports](https://www.github.com/sebastian-meier/LoCobSS-co2-data)<sup class="print"></sup> generiert, um eine möglichst performante Anwendung zu erzielen.
+
+Der Code zur Anwendung ist auf GitHub zu finden: https://github.com/sebastian-meier/locobss-story-mobility
+
+#### 5.2.1 Klimawandelrisiken in Deutschland
+
+Die Personalisierung der Klimawandelrisiken ist nicht so komplex wie bei der Mobilitätsanwendung, dafür werden mehr Daten mit einbezogen. Daten zu Klimazonen, Verdichtungsgebieten und Überschwemmungen wurden für alle Postleitzahlen [vorberechnet](https://www.github.com/sebastian-meier/LoCobSS-dwd-transform)<sup class="print"></sup> und als statische Datenexports bereitgestellt. Das selbe wurde auch für die Klima- und Wetterdaten des Deutschen Wetter Dienstes (DWD) gemacht, um die Graphen im letzten Abschnitt der Anwendung zu generieren.
+
+Der Code zur Anwendung ist auf GitHub zu finden: https://github.com/sebastian-meier/locobss-story-climate-risk-zones
