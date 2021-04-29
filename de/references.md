@@ -43,3 +43,15 @@
 40. https://geoportal.bafg.de/inspire/download/NZ/servicefeed.xml
 41. https://www.svelte.dev
 42. https://www.github.com/sebastian-meier/LoCobSS-platform
+43. https://www.github.com/sebastian-meier/LoCobSS-api
+44. https://www.github.com/sebastian-meier/LoCobSS-similarity
+45. https://www.github.com/sebastian-meier/LoCobSS-text-profanity
+46. https://www.github.com/sebastian-meier/LoCobSS-text-sentiment
+47. https://www.github.com/sebastian-meier/LoCobSS-similarity
+48. https://github.com/valhalla/valhalla
+49. https://github.com/sebastian-meier/valhalla/tree/co2
+50. https://github.com/sebastian-meier/valhalla-co2
+51. https://www.github.com/sebastian-meier/LoCobSS-co2-data
+52. https://github.com/sebastian-meier/locobss-story-mobility
+53. https://www.github.com/sebastian-meier/LoCobSS-dwd-transform
+54. https://github.com/sebastian-meier/locobss-story-climate-risk-zones

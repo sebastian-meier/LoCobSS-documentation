@@ -166,10 +166,7 @@ In der Clusteransicht können Fragen inhaltlich in gemeinsame Taxonomien überf�
 
 **Router**: src/lib/routes/admin.ts<br />
 **View**: src/views/pages/admin/questions/cluster.svelte<br />
-**API**: /related/questions/cluster<br />
-**API**: /public/taxonomies<br />
-**API**: /taxonomy/assign<br />
-**API**: /taxonomy/create
+**API**: /related/questions/cluster | /public/taxonomies | /taxonomy/assign | /taxonomy/create
 
 <figure>
 <figcaption>Prototyp: Administration - Fragen Klassifzieren</figcaption>
@@ -207,12 +204,12 @@ Die daten-gestützten Storytelling-Anwendungen sind ebenfalls in SVELTE entwicke
 
 #### 5.2.1 Klimawandel und Mobilität
 
-Das Herz der Mobilitätsanwendung ist eine spezielle Routing-Engine zur Berechnung von CO2-Produktion auf bestimmten Strecken. Hierzu haben wir die [Valhalla](https://github.com/valhalla/valhalla)<sup class="print"></sup> Routing Engine so modifiziert, dass statt Zeit nun CO2 zur Berechnung genutzt wird. Diese spezielle [Version](https://github.com/sebastian-meier/valhalla/tree/co2)<sup class="print"></sup> haben wir ebenfalls öffentlich zugänglich gemacht. Hierzu mussten wir erst [CO2-Modelle](https://github.com/sebastian-meier/valhalla-co2) generieren. Anschließend haben wir für die verschiedenen Mobilitätsprofile und Postleitzahlen statische [Datenexports](https://www.github.com/sebastian-meier/LoCobSS-co2-data)<sup class="print"></sup> generiert, um eine möglichst performante Anwendung zu erzielen.
+Das Herz der Mobilitätsanwendung ist eine spezielle Routing-Engine zur Berechnung von CO2-Produktion auf bestimmten Strecken. Hierzu haben wir die [Valhalla](https://github.com/valhalla/valhalla)<sup class="print"></sup> Routing Engine so modifiziert, dass statt Zeit nun CO2 zur Berechnung genutzt wird. Diese spezielle [Version](https://github.com/sebastian-meier/valhalla/tree/co2)<sup class="print"></sup> haben wir ebenfalls öffentlich zugänglich gemacht. Hierzu mussten wir erst [CO2-Modelle](https://github.com/sebastian-meier/valhalla-co2)<sup class="print"></sup> generieren. Anschließend haben wir für die verschiedenen Mobilitätsprofile und Postleitzahlen statische [Datenexports](https://www.github.com/sebastian-meier/LoCobSS-co2-data)<sup class="print"></sup> generiert, um eine möglichst performante Anwendung zu erzielen.
 
-Der Code zur Anwendung ist auf GitHub zu finden: https://github.com/sebastian-meier/locobss-story-mobility
+Der Code zur Anwendung ist auf GitHub zu [finden](https://github.com/sebastian-meier/locobss-story-mobility)<sup class="print"></sup>.
 
 #### 5.2.1 Klimawandelrisiken in Deutschland
 
 Die Personalisierung der Klimawandelrisiken ist nicht so komplex wie bei der Mobilitätsanwendung, dafür werden mehr Daten mit einbezogen. Daten zu Klimazonen, Verdichtungsgebieten und Überschwemmungen wurden für alle Postleitzahlen [vorberechnet](https://www.github.com/sebastian-meier/LoCobSS-dwd-transform)<sup class="print"></sup> und als statische Datenexports bereitgestellt. Das selbe wurde auch für die Klima- und Wetterdaten des Deutschen Wetter Dienstes (DWD) gemacht, um die Graphen im letzten Abschnitt der Anwendung zu generieren.
 
-Der Code zur Anwendung ist auf GitHub zu finden: https://github.com/sebastian-meier/locobss-story-climate-risk-zones
+Der Code zur Anwendung ist auf GitHub zu [finden](https://github.com/sebastian-meier/locobss-story-climate-risk-zones)<sup class="print"></sup>.
