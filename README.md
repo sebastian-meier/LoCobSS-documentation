@@ -35,3 +35,6 @@ gem install bundler
 bundle install
 npm run jekyll
 ```
+
+## Acknowledgements
+The base for our PDF template was taken from: https://github.com/ashok-khanna/pdf
