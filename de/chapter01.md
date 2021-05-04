@@ -73,8 +73,6 @@ Eine detaillierte Erklärung der beiden Prototypen folgt in <a class="local" hre
 
 #### 1.2.1 Forschungsfragen
 
-**Wie lassen sich Konzepte lebensweltlicher Taxonomien (z.B. Lebenslagen) mit Taxonomien wissenschaftlicher Wissensrepräsentation verbinden?**
-
 **Wie lassen sich die Fragen der Bürger\*innen von den Wissenschaftler\*innen praxisnah und forschungsrelevant auswerten?**
 
 Es ist mit einer extrem großen Zahl an Inhalten zu rechnen, die von den Redakteur\*innen bearbeitet werden müssen. Mit dem Ziel, Teile der Verwaltung dieser Inhalte technisch unterstützen oder automatisieren zu können, wurden verschiedene verfahren des Maschinellen Lernens (ML) exploriert. Die erfolgreichsten Ergebnisse wurden im Bereich der Kategorisierung (Taxonomien) erzielt. Hierzu wurde ein kooperatives ML-System entwickelt, welches die Redakteur\*innen bei ihrer Arbeit unterstütz und gleichzeitig den Bürger\*innen erlaubt die Inhalte einfach zu durchsuchen. Siehe hierzu <a class="local" href="chapter03.html">Kapitel 3</a>.
