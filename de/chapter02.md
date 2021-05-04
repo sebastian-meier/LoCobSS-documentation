@@ -7,7 +7,7 @@
 
 ### Datensparsamkeit & Datenvermeidung
 
-Grundsätzlich sollte bei jeder Form von Datenerhebung nur die Daten gesammelt werden, die zwingend notwendig sind. Während dies auf den ersten Blick völlig offensichtlich erscheint, verfolgen viele die Strategie so viele Daten wie möglich zu erheben, um z.B. nachträglich noch nicht vorgesehene Analysen zu machen. Die essentiellen Daten zu identifizieren verlangt sich im vornherein mehr Gedanken über die Nachnutzung der Daten zu machen. Verfolgt man aber diesen Ansatz, kann man die Nutzer\*innen sehr transparent darüber informieren, wozu ihre Daten genutzt werden. Gleichzeitig kann der individuelle Fußabdruck der Datensammlung verringert werden.
+Grundsätzlich sollten bei jeder Form von Datenerhebungen nur diejenigen Daten gesammelt werden, die zwingend notwendig sind. Während dies auf den ersten Blick nachvollziehbar und offensichtlich erscheint, verfolgen dennoch viele Services, Erhebungen, oder Anwendungen die Strategie, so viele Daten wie möglich zu erheben. Dies soll z.B. die Option offen halten, nachträglich Analysen durchzuführen, die zum Zeitpunkt der Datenerhebung noch nicht vorgesehen waren oder antizipiert werden (konnten). Die Identifikation und Festlegung der essenziellen Daten vor der Durchführung einer Datenerhebung verlangt demgegenüber eine ausführliche und gründliche Reflexion über die später vorgesehene Nachnutzung der Daten und einer klaren Artikulation der mit der Datenerhebung verfolgten Zwecke. Verfolgt man aber diesen Ansatz, kann man die Nutzer\*innen sehr transparent darüber informieren, wozu ihre Daten genutzt werden. Gleichzeitig kann der individuelle Fußabdruck der Datensammlung verringert werden.
 
 ### Trennen von Datenbeständen
 
