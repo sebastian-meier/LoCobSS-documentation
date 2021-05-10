@@ -5,11 +5,11 @@
 ## Wissenschaftskommunikation
 **Auf Benutzer\*innen zugeschnittenes, datengestütztes Storytelling im Web**
 
-Klassische Wissenschaftskommunikation ist nach wie vor statisch, unidirektional und textlastig. Die strukturelle Nähe zu akademischen Publikationen macht diese nur schwer zugängig für viele interessierte Bürger\*innen. Alternativen zu diesen Kommunikationspraktien finden sich beispielsweise im Bereich des Daten-Journalismus oder der Daten- und Informationsvisualisierung. Dort werden Ansätze entwickelt und genutzt, welche den aktuellen Seh- und Nutzungsgewohnheiten der Leser\*innen entsprechen. In diesem Teilabschnitt des LoCobSS Vorhabens wurden zwei exemplarische Anwendungen entwickelt, welche aufzeigen sollen, wie man mit diesen Methoden des daten-gestützten Storytellings auch wissenschaftliche Inhalte bürgernah vermitteln kann. Darüber hinaus wurden Methoden der Personalisierung entwickelt, um es den Leser\*innen zu erleichtern Bezüge zwischen den wissenschaftlichen Ergebnissen und der eigenen Lebenswelt herzustellen.
+Klassische Wissenschaftskommunikation ist nach wie vor meist statisch, unidirektional und textlastig. Die strukturelle Nähe zu akademischen Publikationen macht diese nur schwer zugängig für viele interessierte Bürger\*innen. Alternativen zu diesen Kommunikationspraktiken finden sich beispielsweise im Bereich des Daten-Journalismus oder der Daten- und Informationsvisualisierung. Dort werden Ansätze entwickelt und genutzt, welche den aktuellen Seh- und Nutzungsgewohnheiten der Leser\*innen entsprechen. In diesem Teilabschnitt des LoCobSS Vorhabens wurden zwei exemplarische Anwendungen entwickelt, welche aufzeigen sollen, wie man mit diesen Methoden des datengestützten Storytellings auch wissenschaftliche Inhalte bürger\*innennah vermitteln kann. Darüber hinaus wurden Methoden der Personalisierung entwickelt, um es den Leser\*innen zu erleichtern, Bezüge zwischen den wissenschaftlichen Ergebnissen und der eigenen Lebenswelt herzustellen.
 
-### Daten-gestütztes Storytelling
+### Datengestütztes Storytelling
 
-Die zunehmende Verfügbarkeit von Daten, barrierearme Werkzeuge zur Erstellung von Visualisierungen und Bemühungen von Akteur\*innen wie Datenjournalist\*innen, haben in den letzten Jahren dazu beigetragen, dass Visualisierungen von Daten und Informationen nicht mehr nur in der Fachliteratur zu finden sind, sondern Einzug in die Massenmedien gehalten haben. Besonders hervorzuheben für ihre herausragende datenjournalistische Arbeit auf diesem Gebiet sind z.B. folgende Plattformen:
+Die zunehmende Verfügbarkeit von Daten, barrierearmen Werkzeuge zur Erstellung von Visualisierungen und Bemühungen von Akteur\*innen wie Datenjournalist\*innen, haben in den letzten Jahren dazu beigetragen, dass Visualisierungen von Daten und Informationen nicht mehr nur in der Fachliteratur zu finden sind, sondern Einzug in die Massenmedien gehalten haben. Besonders hervorzuheben für ihre herausragende datenjournalistische Arbeit auf diesem Gebiet sind z.B. folgende Plattformen:
 
 **Deutschland**
 - [Zeit-Online](https://www.zeit.de/datenjournalismus)<sup class="print"></sup>
@@ -35,7 +35,7 @@ Die zunehmende Verfügbarkeit von Daten, barrierearme Werkzeuge zur Erstellung v
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/newyorktimes.jpg" alt="" /></center>
 </figure>
 
-Wie in der beispielhaften Abbildung aus der New York Times oben zu sehen, gehen die Formen von Visualisierungen mittlerweile weit über einfache Balken- und Liniendiagramme hinaus und bieten komplexe Darstellungen und Analysemöglichkeiten. Diese komplexen Formen der Visualisierungen sollten aber mit Bedacht genutzt werden, da die Zunahme solcher Darstellung nicht zwingend Hand-in-Hand geht mit der Visual-Literacy in der breiten Leserschaft. Weshalb wir in den folgenden Prototypen versucht haben die visuelle und informationelle Komplexität möglichst gering zu halten.
+Wie in der beispielhaften Abbildung aus der New York Times oben zu sehen, gehen die Formen von Visualisierungen mittlerweile weit über einfache Balken- und Liniendiagramme hinaus und bieten komplexe Darstellungen und Analysemöglichkeiten. Diese komplexen Formen der Visualisierungen sollten aber mit Bedacht genutzt werden, da die Zunahme solcher Darstellungen nicht zwingend Hand-in-Hand geht mit der Visual-Literacy in der breiten Leserschaft. Deshalb haben wir in den folgenden Prototypen versucht, die visuelle und informationelle Komplexität möglichst gering zu halten.
 
 Weiterführende Lektüre zum Thema Datenjournalismus:
 
@@ -47,9 +47,9 @@ Weiterführende Lektüre zum Thema Datenjournalismus:
 
 ### Personalisierung und Relevanz
 
-Besonders wenn es um eher abstrakte wissenschaftliche Phänomene geht, ist es wichtig den Leser\*innen Bezüge zur eigenen Lebenswelt aufzuzeigen, um die Relevanz dieser Thematiken deutlich zu machen. Beim Beispiel der Klimawandelkommunikation, welche wir in unseren Prototypen thematisiert haben, wird dies besonders deutlich. Im Gegensatz zum lokalen Wetter, beschreibt der Klimawandel langfristige und großräumliche Veränderungen. Hierdurch kann es für Bürger\*innen schwierig sein Bezüge zum eigenen Leben und Handeln herzustellen. Die Herausforderung ist also diese Verbindungen herzustellen, umso persönlicher die Bezüge, umso einfacher die Verbindung zur Lebenswelt der Bürger\*innen. 
+Besonders wenn es um eher abstrakte wissenschaftliche Phänomene geht, ist es wichtig, den Leser\*innen Bezüge zur eigenen Lebenswelt aufzuzeigen, um die Relevanz dieser Thematiken deutlich zu machen. Beim Beispiel der Klimawandelkommunikation, welche wir in unseren Prototypen thematisiert haben, wird dies besonders deutlich. Im Gegensatz zum lokalen Wetter beschreibt der Klimawandel langfristige und großräumliche Veränderungen. Hierdurch kann es für Bürger\*innen schwierig sein, Bezüge zum eigenen Leben und Handeln herzustellen. Die Herausforderung liegt also darin, diese Verbindungen herzustellen. Je persönlicher die Bezüge, umso einfacher die fällt es, eine Verbindung zur Lebenswelt der Bürger\*innen herzustellen. 
 
-Den folgenden Prototypen liegt folgendes Modell zu Grunde (siehe Meier & Glinka 2017): 1) es gibt einen Datenraum, welcher für die Visualisierung genutzt wird (z.B. Klimazonen in Deutschland), 2) es gibt Leser\*innen die bestimmte Eigenschaften haben (Datenattribute, wie z.B. der Wohnort). Auf diesem Modell aufbauend, kann man die abstrahierte datengestützte Repräsentation einer Leser\*in mit dem Datenraum abgleichen und verschiedene Operationen durchführen:
+Den folgenden Prototypen liegt folgendes Modell zu Grunde (siehe Meier & Glinka 2017): 1) es gibt einen Datenraum, welcher für die Visualisierung genutzt wird (z.B. Klimazonen in Deutschland), 2) es gibt Leser\*innen, die bestimmte Eigenschaften haben (Datenattribute, wie z.B. der Wohnort). Auf diesem Modell aufbauend, kann man die abstrahierten Datenattribute einer Leser\*in mit dem Datenraum abgleichen und verschiedene Operationen durchführen:
 
 Bei mehrdimensionen Datenräumen kann eine Dimensionsreduktion genutzt werden, um möglichst ähnliche Datenobjekte im Vergleich zur Leser\*in zu identifizieren, um so einen Einstieg in den größeren Datenraum zu erleichtern.
 
@@ -60,13 +60,13 @@ Bei mehrdimensionen Datenräumen kann eine Dimensionsreduktion genutzt werden, u
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/personal_dr.png" alt="" /></center>
 </figure>
 
-Ähnliche Prinzipien zumn identifizieren ähnlicher Datenpunkte oder Gruppen ähnlicher Datenpunkte lassen sich auch mit anderen Verfahren durchführen, wie z.B. KNN oder KMC.
+Vergleichbare Prinzipien zur Identifikation ähnlicher Datenpunkte oder Gruppen ähnlicher Datenpunkte lassen sich auch mit anderen Verfahren durchführen, wie z.B. KNN oder KMC.
 <figure>
 <figcaption>Personalisierung: K-Nearest-Neighbour und K-Means-Clustering (blau Leser\*in)</figcaption>
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/personal_knn.png" alt="" /></center>
 </figure>
 <div class="page-break"></div>
-Genauso können die Attribute der Leser\*in auch als Filter genutzt werden, um den Datenraum herunterzubrechen und zu verkleinern.
+Die Attribute der Leser\*in können ebenso als Filter genutzt werden, um den Datenraum herunterzubrechen und zu verkleinern.
 <figure>
 <figcaption>Personalisierung: Filteransatz</figcaption>
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/personal_filter.png" alt="" /></center>
@@ -74,7 +74,7 @@ Genauso können die Attribute der Leser\*in auch als Filter genutzt werden, um d
 
 In den beiden Prototypen wurde dieses abstrakte Modell anschaulich umgesetzt:
 
-1. **Klimawandel und Mobilität**: In dem Artikel soll das Thema CO2-Fußabdruck vermittelt werden. Die Leser\*innen geben ihre Postleitzahl, ihr primäres Verkehrsmittel, sowie ihre tägliche Reisedistanz an. Dies ist das individuelle Datenobjekt. Dieses Datenobjekt wird nun genutzt, um CO2-Ziele im Rahmen der Klimawandelbekämpfung darzustellen. Statt allgemeiner Darstellungen, werden die Auswirkung von CO2-Reduktion direkt in der heimischen Postleitzahl der Leser\*innen dargestellt. Weitere Details siehe unten.
+1. **Klimawandel und Mobilität**: In dem Artikel soll das Thema CO2-Fußabdruck vermittelt werden. Die Leser\*innen geben ihre Postleitzahl, ihr primäres Verkehrsmittel, sowie ihre tägliche Reisedistanz an. Dies ist das individuelle Datenobjekt. Dieses Datenobjekt wird nun genutzt, um CO2-Ziele im Rahmen der Klimawandelbekämpfung darzustellen. Statt allgemeiner Darstellungen werden die Auswirkung von CO2-Reduktion direkt in der heimischen Postleitzahl der Leser\*innen dargestellt. Weitere Details siehe unten.
 2. **Klimawandelrisiken**: In diesem Artikel sollen Klimawandelauswirkungen in Deutschland kommuniziert werden. Die Leser\*innen geben hierzu ihre Postleitzahl ein. Über die Postleitzahl werden die Auswirkungen herausgefiltert, welche für diese Region Deutschlands zutreffend sind (Filter). Diese werden dann für die angegebene Postleitzahl lokal visualisiert. Weitere Details siehe unten.
 
 Weiterführende Literatur zur Personalisierung von Visualisierungen:
@@ -88,9 +88,9 @@ Weiterführende Literatur zur Personalisierung von Visualisierungen:
 
 ### Umsetzung
 
-Bei der Umsetzung wurde die in <a class="local" href="chapter02.html">Kapitel 2</a> beschriebene client-side classifiction genutzt, in Kombination mit vorberechneten statischen Datenextrakten. Hierdurch konnte eine privatsphären-konforme Implementation der folgenden Prototypen sichergestellt werden. Während der Interaktion mit den Visualisierungen werden keine Daten über die Nutzer\*innen gespeichert.
+Bei der Umsetzung wurde die in <a class="local" href="chapter02.html">Kapitel 2</a> beschriebene client-side classifiction genutzt, in Kombination mit vorberechneten statischen Datenextrakten. Hierdurch konnte eine privatsphären-konforme Implementierung der folgenden Prototypen sichergestellt werden. Während der Interaktion mit den Visualisierungen werden keine Daten über die Nutzer\*innen gespeichert.
 
-Beide Prototypen nutzen das sogenannte Scrollytelling-Konzept. Die Benutzer\*innen müssen zur Interaktion einfach nur scrollen. Dadurch werden Animationen und Interaktionen ausgelöst. Diese niedrigschwellige Form der Interaktion ist sehr intuitiv und funktioniert sowohl auf Desktop als auch auf mobilen Endgeräten. Die Nutzer\*innen können durch das Scrolling, die Gewschwindigkeit der Erzählung selber beeinflussen und steuern.
+Beide Prototypen nutzen das sogenannte Scrollytelling-Konzept. Die Benutzer\*innen müssen zur Interaktion einfach nur scrollen. Dadurch werden Animationen und Interaktionen ausgelöst. Diese niedrigschwellige Form der Interaktion ist sehr intuitiv und funktioniert sowohl auf Desktop als auch auf mobilen Endgeräten. Die Nutzer\*innen können durch das Scrolling die Gewschwindigkeit der Erzählung selber beeinflussen und steuern.
 
 Für weitere technische Details der Umsetzung, siehe <a class="local" href="chapter05.html">Kapitel 5</a>.
 
@@ -107,7 +107,7 @@ In diesem ersten Prototypen sollen verschiedene Szenarien geplanter CO2-Reduktio
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/mobilitaet/mobilitaet-1.png" alt="" /></center>
 </figure>
 
-Hierzu wird den Leser\*innen zuerst aufgezeigt, welche Bedeutung dem PKW in Bezug auf CO2-Emissionen zukommt. Hierzu werden animierte Graphen genutzt, welche mit kurzen Absätzen unterstützt werden. Die Informationen werden in kleine Einheiten aufgebrochen und in Kombination aus Text und Visualisierung vermittelt.
+Hierzu wird den Leser\*innen zuerst aufgezeigt, welche Bedeutung dem PKW in Bezug auf CO2-Emissionen zukommt. Hierzu werden animierte Grafiken genutzt, welche mit kurzen Absätzen unterstützt werden. Die Informationen werden in kleine Einheiten aufgebrochen und in einer Kombination aus Text und Visualisierung vermittelt.
 
 <figure>
 <figcaption>Protoyp Mobilität: Allgemeine Einführung in die Thematik</figcaption>
@@ -122,7 +122,7 @@ Dieser erste Abschnitt ist noch sehr allgemein gehalten. Als Einstieg in den per
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/mobilitaet/mobilitaet-4.png" alt="" /></center>
 </figure>
 
-Die personalisierte Erzählung beginnt dann mit einem Wechsel zur von der Nutzer\*in eingegebenen Postleitzahl. Dort wird durch einen Kreis die durchschnittliche tägliche Reisedistanz aufgezeigt, basierend auf dem gewählten Fortbewegungsmittel (basierend auf [Mobilität in Tabellen](https://mobilitaet-in-tabellen.dlr.de/)<sup class="print"></sup>, DLR).
+Die personalisierte Erzählung beginnt dann mit einem Wechsel zur von den Nutzer\*innen eingegebenen Postleitzahl. Dort wird durch einen Kreis die durchschnittliche tägliche Reisedistanz aufgezeigt, basierend auf dem gewählten Fortbewegungsmittel (basierend auf [Mobilität in Tabellen](https://mobilitaet-in-tabellen.dlr.de/)<sup class="print"></sup>, DLR).
 
 <div class="page-break"></div>
 
@@ -131,7 +131,7 @@ Die personalisierte Erzählung beginnt dann mit einem Wechsel zur von der Nutzer
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/mobilitaet/mobilitaet-5.png" alt="" /></center>
 </figure>
 
-Im nächsten Schritt wird der Durchschnitt mit der Angabe der Leser\*in kombiniert und erlaubt ein erstes Reflektieren der eigenen Mobilität mit dem Durchschnitt in der Region. Der Einbezug regionalisierter Durchschnitte ist durchaus relevant, da es regionale Unterschiede im Mobilitätsverhalten gibt, z.B. zwischen ländlichen und städtischen Regionen.
+Im nächsten Schritt wird der Durchschnittswert mit der Angabe der Leser\*innen kombiniert und erlaubt so ein erstes Reflektieren der eigenen Mobilität im Abgleich mit dem Durchschnitt in der Region. Der Einbezug regionalisierter Durchschnitte ist durchaus relevant, da es regionale Unterschiede im Mobilitätsverhalten gibt, z.B. zwischen ländlichen und städtischen Regionen.
 
 <div class="page-break"></div>
 
@@ -140,10 +140,10 @@ Im nächsten Schritt wird der Durchschnitt mit der Angabe der Leser\*in kombinie
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/mobilitaet/mobilitaet-6.png" alt="" /></center>
 </figure>
 
-In den darauf folgenden Schritten wird der CO2-Fußabdruck der eigenen Mobilität in den Fokus genommen. Basierend auf Prognosen des Umweltbundesamts werden verschiedene Szenarien eröffnet, um wieviel man die eigene Mobilität einschränken müsste. Um Alternativen aufzuzeigen, werden anschließend unterschiedliche Mobilitätskombinationen aufgezeigt (z.B. ÖPNV+PKW oder ÖPNV+Rad), um so Mobilitätspotentiale aufzuzeigen. Die Art der Kombinationen und Szenarien hängt von der oben getroffenen Auswahl ab.
+In den darauf folgenden Schritten wird der CO2-Fußabdruck der eigenen Mobilität in den Fokus genommen. Basierend auf Prognosen des Umweltbundesamts werden verschiedene Szenarien eröffnet die anzeigen, wieviel man die eigene Mobilität einschränken müsste, um das für den eigenen CO2-Fußabdruck vorhandene CO2-Kontingent einzuhalten. Um Alternativen aufzuzeigen, werden anschließend unterschiedliche Mobilitätskombinationen aufgezeigt (z.B. ÖPNV+PKW oder ÖPNV+Rad), um so Mobilitätspotentiale aufzuzeigen. Die Art der Kombinationen und Szenarien hängt von der oben getroffenen Auswahl ab.
 
 <figure>
-<figcaption>Protoyp Mobilität: Darstellung von CO-2 Redukations Szenarien in Kombination mit verschiedenen Mobilitäts-Mix-Kombinationen</figcaption>
+<figcaption>Protoyp Mobilität: Darstellung von CO-2 Reduktions-Szenarien in Kombination mit verschiedenen Mobilitäts-Mix-Kombinationen</figcaption>
 <center>
 <img style="width:33%; margin:0; padding:0; display:inline;" src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/mobilitaet/mobilitaet-7.png" alt="" /><img style="width:33%; margin:0; padding:0; display:inline;" src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/mobilitaet/mobilitaet-8.png" alt="" /><img style="width:33%; margin:0; padding:0; display:inline;" src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/mobilitaet/mobilitaet-9.png" alt="" /></center>
 </figure>
@@ -158,7 +158,7 @@ Da Flugreisen so viel CO2 produzieren, dass diese im ersten Teil nicht abgebilde
 
 ### Prototyp II - Klimawandelrisiken in Deutschland
 
-Der zweite Prototyp setzt sich mit der Thematik der Klimawandelrisiken in Deutschland auseinander. Wenn man den aktuellen Nachrichten folgt, bekommt man häufig das Gefühl vermittelt, dass der Klimawandel zwar akut ist, aber bisher primär andere Länder betrifft, wie exotische Inseln die vom Meeresanstieg bedroht sind oder Waldbrände in Kalifornien und Buschfeuer in Australien. Studien des Umweltbundesamts zeigen aber auf, dass die Folgen des Klimawandels längst in Deutschland angekommen sind und in den nächsten Jahren weiter zunehmen werden.
+Der zweite Prototyp setzt sich mit der Thematik der Klimawandelrisiken in Deutschland auseinander. Wenn man den aktuellen Nachrichten folgt, bekommt man häufig das Gefühl vermittelt, dass der Klimawandel zwar akut ist, aber bisher primär andere Länder betrifft. Dazu zählen Südseeinselns, die vom Meeresanstieg bereits jetzt akut betroffen und bedroht sind oder Waldbrände in Kalifornien oder verheerende Buschfeuer in Australien. Studien des Umweltbundesamts zeigen aber ebenso auf, dass die Folgen des Klimawandels längst auch in Deutschland angekommen sind und in den nächsten Jahren weiter zunehmen werden.
 
 In dieser Storytelling-Anwendungen werden Erkenntnisse des Umweltbundesamts zu Klimawandelrisiken auf den Wohnort der Leser\*in heruntergebrochen und lokal visualisiert.
 
@@ -183,7 +183,7 @@ Der eigentliche Storytelling-Abschnitt beginnt mit einer Verortung der Erzählun
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/klima/klimawandel-4.png" alt="" /></center>
 </figure>
 
-Danach wird erklärt in welcher Klimazone sich dieses Gebiet befindet. In den nächsten Schritten wird die Bedeutung der Klimazone erklärt, zukünftige Entwicklungen und Bereich aus Umwelt, Gesellschaft und Wirtschaft die besonders von diesen Auswirkungen betroffen sind.
+Danach wird erklärt, in welcher Klimazone sich dieses Gebiet befindet. In den nächsten Schritten wird die Bedeutung der Klimazone erklärt. Zukünftige Entwicklungen in Bereichen, die besonders von diesen Auswirkungen betroffen sind - darunter Umwelt, Gesellschaft und Wirtschaft - werden zur Erläuterung herangezogen.
 
 <figure>
 <figcaption>Protoyp Kliamwandel: Details zur Klimaregion und zukünftigen Herausforderungen</figcaption>
@@ -191,7 +191,7 @@ Danach wird erklärt in welcher Klimazone sich dieses Gebiet befindet. In den n�
 <img style="width:33%; margin:0; padding:0; display:inline;" src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/klima/klimawandel-5.png" alt="" /><img style="width:33%; margin:0; padding:0; display:inline;" src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/klima/klimawandel-6.png" alt="" /><img style="width:33%; margin:0; padding:0; display:inline;" src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/klima/klimawandel-7.png" alt="" /></center>
 </figure>
 
-Abhängig von der eingegebenen Postleitzahl werden weitere Risiken mit lokalem Bezug visualisiert. Diese speziellen Risiken erstrecken sich über Verdichtungsräume (siehe Abbildung), Gebiete an der Küste mit Sturmflutrisiken, bis hin zu Hochwassern in Flussgebieten (siehe nächster Abschnitt).
+Abhängig von der eingegebenen Postleitzahl werden weitere Risiken mit lokalem Bezug visualisiert. Diese speziellen Risiken betreffen Verdichtungsräume (siehe Abbildung), Gebiete an der Küste mit Sturmflutrisiken, bis hin zu Hochwassern in Flussgebieten (siehe nächster Abschnitt).
 
 <figure>
 <figcaption>Protoyp Kliamwandel: Verdichtungsräume</figcaption>
@@ -206,23 +206,23 @@ Für die Visualisierung der lokalen Hochwassergefahren, wurden Daten der [Bundes
 <img style="width:33%; margin:0; padding:0; display:inline;" src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/klima/klimawandel-9.png" alt="" /><img style="width:33%; margin:0; padding:0; display:inline;" src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/klima/klimawandel-10.png" alt="" /><img style="width:33%; margin:0; padding:0; display:inline;" src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/klima/klimawandel-11.png" alt="" /></center>
 </figure>
 
-Um die zeitliche Entwicklung deutlich zu machen, werden zum Abschluss des personalisierten Bereichs die Entwicklungen der lokalen Durchschnittstemperaturen mit den Entwicklungen der Temperaturen in ganz Deutschland verglichen. Hierbei werden der deutliche Anstieg der Temperaturen unabhängig von vllt. lokal abweichenden Phänomenen hervorgehoben. 
+Um die zeitliche Entwicklung deutlich zu machen, werden zum Abschluss des personalisierten Bereichs die Entwicklungen der lokalen Durchschnittstemperaturen mit den Entwicklungen der Temperaturen in ganz Deutschland verglichen. Hierbei werden der deutliche Anstieg der Temperaturen unabhängig von möglicherweise lokal abweichenden Phänomenen hervorgehoben. 
 
 <div class="page-break"></div>
 
 <figure>
-<figcaption>Protoyp Kliamwandel: Vergleich Temperaturen in Deutschland und der ausgwählten Postleitzahl</figcaption>
+<figcaption>Protoyp Kliamwandel: Vergleich der Temperaturen in Deutschland und der ausgwählten Postleitzahl</figcaption>
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/klima/klimawandel-13.png" alt="" /></center>
 </figure>
 
-Der Vergleich zwischen den lokalen und nationalen Temperaturtrends schafft den Bezug zwicher der lokalen und nationalen Ebene. Dies schließt der letzte Abschnitt der Anwendung ab, indem auf einer Deutschlandkarte die Entwicklung der Temperaturen der letzten 100 Jahre abgebildet werden.
+Der Vergleich zwischen den lokalen und nationalen Temperaturtrends schafft den Bezug zwicher der lokalen und nationalen Ebene. Dies schließt den letzten Abschnitt der Anwendung ab, indem auf einer Deutschlandkarte die Entwicklung der Temperaturen der letzten 100 Jahre abgebildet werden.
 
 <figure>
 <figcaption>Protoyp Kliamwandel: Temperaturentwicklung für ganz Deutschland</figcaption>
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/klima/klimawandel-14.png" alt="" /></center>
 </figure>
 
-Für Leser\*innen die sich weiter mit der Materie auseinandersetzen wollen, werden zum Abschluss der Anwendungen noch Leseempfehlungen gegeben. Diese Empfehlungen sind auch abhängig von den Angaben der Leser\*innen personalisiert, sodass Themen für die Region der Leser\*in besonders hervorgehoben werden.
+Für Leser\*innen, die sich weiter mit der Materie auseinandersetzen wollen, werden zum Abschluss der Anwendungen noch Leseempfehlungen gegeben. Diese Empfehlungen sind auch in Abhängigkeit von den Angaben der Leser\*innen personalisiert, sodass Themen für die Region der Leser\*in besonders hervorgehoben werden.
 
 <figure>
 <figcaption>Protoyp Kliamwandel: Personalisierte Literaturempfehlungen</figcaption>
