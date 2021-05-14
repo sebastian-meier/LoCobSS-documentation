@@ -34,12 +34,12 @@ Das vorsichtige Abwägen beim Erheben von personenbezogenen Attributen ist notwe
 
 Um diese Gefahren ganz praktisch anhand einiger Beispiele zu demonstrieren, haben wir eine [**interaktive Demo**](https://sampling.locobss.vislab.io/?lang=de)<sup class="print"></sup> entwickelt.
 
+<div class="page-break"></div>
+
 <figure>
 <figcaption>Demo: Daten erheben & die Privatsphäre schützen</figcaption>
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/privacy-sampling.png" alt="" /></center>
 </figure>
-
-<div class="page-break"></div>
 
 ### Möglichkeiten zur Erhebung sensibler Information
 
@@ -52,8 +52,6 @@ Um diese Methode der **client-side classification** zu demonstrieren, haben wir 
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/privacy-demo.png" alt="" /></center>
 </figure>
 
-<div class="page-break"></div>
-
 #### Implementierung
 
 Im Prototypen haben wir die Trennung von demographischen Daten und Nutzerdaten exemplarisch implementiert. Zusätzlich haben wir die oben beschriebene client-side classification implementiert. Beispielhaft wird hierzu die eingegebene Postleitzahl genutzt, um direkt im Browser die [RegioStar Gem5](https://www.bmvi.de/SharedDocs/DE/Artikel/G/regionalstatistische-raumtypologie.html)<sup class="print"></sup> Klasse zu identifizieren (Metropole; Regiopole, Großstadt; Zentrale Stadt, Mittelstadt; Städtischer Raum; Kleinstädtischer / dörflicher Raum). Siehe hierzu die technische Dokumentation in <a class="local" href="chapter05.html">Kapitel 5</a>.
@@ -65,8 +63,6 @@ Weiterhin haben wir bei der Implementierung versucht, sogenannte "Dark Design Pa
 3. Transparent erklären, wozu welche Daten erhoben werden und was damit geschieht. Zum Beispiel transparent erklären, warum demographische Daten erhoben werden und wie diese verarbeitet werden.
 4. Opt-in und nicht Opt-out. Die Vorteile einer möglichen Registrierung sollten deutlich gemacht werden und die Wahl der Nutzer\*in überlassen werden.
 5. Sicherheitsmaßnahmen und Privatsphäre müssen häufig abgewägt werden. Wenn wir Bürger\*innen erlauben wollen, Fragen zu stellen, ohne z.B. vorher ihre Email-Adresse zu validieren, müssen wir andere Maßnahmen integrieren, um illegale Aktivitäten auf der Seite zu verhindern. Wir haben als Beispielhafte Lösung [reCaptcha](https://developers.google.com/recaptcha/docs/display)<sup class="print"></sup> implementiert. Wir haben explizit Version 2 genutzt, da die Privatsphäre bei dieser Variante besser geschützt wird.
-
-<div class="page-break"></div>
 
 <figure>
 <figcaption>Prototyp: Formular zum Stellen einer Frage</figcaption>
