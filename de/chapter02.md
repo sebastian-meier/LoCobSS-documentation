@@ -47,6 +47,8 @@ In manchen Fällen möchte man möglicherweise Daten erheben, die sehr persönli
 
 Um diese Methode der **client-side classification** zu demonstrieren, haben wir eine [**interaktive Demo**](https://privacy.locobss.vislab.io?lang=de)<sup class="print"></sup> entwickelt.
 
+<div class="page-break"></div>
+
 <figure>
 <figcaption>Demo: Client-side Classification</figcaption>
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/privacy-demo.png" alt="" /></center>
@@ -63,6 +65,8 @@ Weiterhin haben wir bei der Implementierung versucht, sogenannte "Dark Design Pa
 3. Transparent erklären, wozu welche Daten erhoben werden und was damit geschieht. Zum Beispiel transparent erklären, warum demographische Daten erhoben werden und wie diese verarbeitet werden.
 4. Opt-in und nicht Opt-out. Die Vorteile einer möglichen Registrierung sollten deutlich gemacht werden und die Wahl der Nutzer\*in überlassen werden.
 5. Sicherheitsmaßnahmen und Privatsphäre müssen häufig abgewägt werden. Wenn wir Bürger\*innen erlauben wollen, Fragen zu stellen, ohne z.B. vorher ihre Email-Adresse zu validieren, müssen wir andere Maßnahmen integrieren, um illegale Aktivitäten auf der Seite zu verhindern. Wir haben als Beispielhafte Lösung [reCaptcha](https://developers.google.com/recaptcha/docs/display)<sup class="print"></sup> implementiert. Wir haben explizit Version 2 genutzt, da die Privatsphäre bei dieser Variante besser geschützt wird.
+
+<div class="page-break"></div>
 
 <figure>
 <figcaption>Prototyp: Formular zum Stellen einer Frage</figcaption>
