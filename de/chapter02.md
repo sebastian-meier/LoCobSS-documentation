@@ -21,7 +21,7 @@ Gleichzeitig sollte reflektiert werden, ob es zwingend notwendig ist, statistisc
 1. Geschlecht: Aus Inklusionsgründen sollte hier ein breites Spektrum an Möglichkeiten angeboten werden. Eine entsprechende nicht-binäre Auswahl von Geschlecht führt folglich auch dazu, dass einzelne Auswahlmöglichkeiten nur von einer im Vergleich kleineren Anzahl von Personen ausgewählt wird. Dies birgt wiederum die Gefahr, dass Informationen über eine kleine Untergruppe der Bevölkerung erhoben werden und bei einem Datendiebstahl weiteren Daten zugeordnet werden können. Hier muss abgewogen werden, wie granular die Datenerhebung und wie gut der Schutz der Privatsphäre sein soll.
 2. Alter: Für das gestellte Ziel sollte es ausreichen grobe Altersklassen zu bilden, um auch hier sehr kleine Untergruppen identifizierbar zu machen.
 3. Räumliche Verordnung: Umso gröber die räumliche Auflösung, umso höher der Schutz der Privatsphäre. In vielen Fällen wird es wahrscheinlich ausreichen, Bundesländer oder z.B. Postleitzahlenbereiche zu erheben, unter denen eine größere Gruppe an Personen gefasst sind.
-<div class="page-break"></div>
+
 **Speicherung**: Sind wir nur daran interessiert, mit diesen Daten Aussagen über die Qualität der Stichprobe treffen zu können, könnte man diese demographischen Daten komplett von den daran anknüpfenden Fragen und den Nutzer\*innendaten trennen. So könnte man später die demographischen Attribute weder den eingereichten Fragen noch einzelnen Personen zuordnen. Die Aussagekraft über die Qualität der Stichprobe wäre davon nicht gemindert.
 
 #### 2.2.1 Implementierung
