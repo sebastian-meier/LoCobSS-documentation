@@ -17,7 +17,7 @@ Obwohl sich viele der Komponenten kurz vor einem Release-State befinden, muss hi
 - Datenschutzbestimmung basierend auf den genutzten Komponenten erarbeiten
 - Code refactoring
 - In LoCobSS-Plattform: Trennen von Bürger\*innen-Plattform und Verwaltungsebene in zwei Anwendungen, um den Fußabdruck zu verkleinern. 
-
+<div class="page-break"></div>
 #### 5.1 Umfrage-Plattform
 
 #### 5.1.1 Übersicht
