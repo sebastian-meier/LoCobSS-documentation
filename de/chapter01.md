@@ -60,7 +60,7 @@ Details zum Prototypen für die Kategorisierung von Beiträgen in <a class="loca
 Durch Customization-Methoden kann die User-Experience personalisiert werden und so zu einer intensiveren Auseinandersetzung mit der Plattform führen. Um das explorieren der Inhalte auf der Plattform zu erleichtern und Serendipität zu fördern, sollten neben einer klassischen Suche auch Recommender-Funktionalitäten integriert werden. Hierbei unterscheidet man zwischen Content-based Recommendation und Collaborative Recommendation. Für letzteren Ansatz müssten allerdings die Interaktionen der Nutzer\*innen erfasst werden. Zum Schutz der Privatsphäre der Nutzer\*innen sollte dieser Ansatz nur mit bedacht durchgeführt werden. Im Rahmen dieses Vorhabens haben wir daher einen prototypischen Content-based Recommender entwickelt, der keinerlei Nutzer\*innendaten speichert und auf denselben Prinzipien des Redaktionswerkzeugs für die Kategorisierung aufbaut. 
 
 Mehr zum Content-based Recommender in <a class="local" href="chapter03.html">Kapitel 3</a>.
-
+<div class="page-break"></div>
 #### 1.1.5 Customization: Wissenschaftsvermittlung
 
 Klassische Wissenschaftsvermittlung ist häufig statisch, unidirektional und textlastig. Im Rahmen von LoCobSS haben wir in Abgrenzung dazu mit modernen Methoden des Datenjournalism und das data-driven Storytellings neue Formate zur Vermittlung wissenschaftlicher Erkenntnisse in Form von zwei interaktiven Prototypen entwickelt, die sich individuell personalisieren lassen. So wird die Lebenswelt der Nutzer\*innen in die Kommunikation mit einbezogen und erlaubt ihnen, direkte Bezüge zwischen ihrer Lebenswelt und den vermittelten Inhalten herzustellen. Durch interaktive Elemente wird die Aufmerksamkeit der Nutzer\*innen gebunden. Explorative Elemente laden zu einer tiefergehenden Auseinandersetzung mit der Materie ein. Auch bei den Ansätzen zur Personalisierung bleibt die Privatsphäre der Nutzer\*innen gewahrt.
@@ -90,8 +90,6 @@ Diese Dokumentation enthält Empfehlungen (siehe <a class="local" href="chapter0
 **Welche Potentiale ergeben sich durch die Erhebung des räumlichen Kontextes in Hinblick auf die individuelle Relevanz der Inhalte?**
 
 In Fortführung der Personalisierungsmethoden wurden zwei exemplarische Wissenschaftskommunikations-Anwendungen entwickelt, welche den räumlichen Kontext der Leser\*innen nutzen, um das interaktive Storytelling zu personalisieren. Mehr in <a class="local" href="chapter04.html">Kapitel 4</a>.
-
-<div class="page-break"></div>
 
 #### 1.2.2 Arbeitspakete
 
