@@ -28,7 +28,7 @@ In der aktuellen Version wurden die Services und Komponenten für die Google-Clo
 <figcaption>Informationsarchitektur</figcaption>
 <center><img src="https://sebastian-meier.github.io/LoCobSS-documentation/assets/images/architecture.png" alt="" /></center>
 </figure>
-
+<div class="page-break"></div>
 #### 5.1.2 Frontend
 
 Das Frontend, in der alle Komponenten für die Umfrage zusammenfließen, ist im **LoCobSS-platform** Repository zusammengeführt. Es handelt sich hierbei um eine sogenannte Single Page Application (SPA), welche mit dem Framework [SVELTE](https://svelte.dev/)<sup class="print"></sup> entwickelt wurde. Die Anwendung lässt sich grob in drei Hauptbereiche unterteilen: 1) Öffentlicher Bereich zum Durchstöbern der Fragen und zum Fragen stellen, 2) Interner Bereich für Bürger\*innen zur Verwaltung der eigenen Daten und zur Verfolgung von Fragen, sowie 3) der Bereich für Redakteur\*innen zum Verwalten der Fragen und Nutzer\*innen.
@@ -38,7 +38,7 @@ Das Frontend, in der alle Komponenten für die Umfrage zusammenfließen, ist im 
 **Öffentlicher Bereich**
 
 Nutzer\*innen können die von anderen Teilnehmer\*innen erstellten Inhalte auf der Plattform im öffentlichen Bereich explorieren. Inhalte können nach Taxonomien, Datum und Suchbegriffen gefiltert werden sowie danach, ob es schon eine Antwort für die Frage gibt. Daten werden über die [API](https://www.github.com/sebastian-meier/LoCobSS-api)<sup class="print"></sup> bereitgestellt.
-
+<div class="page-break"></div>
 **Router**: src/lib/routes/survey.ts<br />
 **View**: src/views/pages/survey/list.svelte<br />
 **API**: /public/questions
